@@ -1,0 +1,11 @@
+conda create -p venv python==3.10
+conda activate venv/
+pip install google-cloud-aiplatfrom
+pip install -r requirements.txt
+
+
+## create service account for vertex ai 
+## download the keys 
+## enable vertex ai 
+
+## conda activate /Users/bhavanakajal/Documents/GitHub/GCPAI-Projects/venv
