@@ -9,3 +9,9 @@ pip install -r requirements.txt
 ## enable vertex ai 
 
 ## conda activate /Users/bhavanakajal/Documents/GitHub/GCPAI-Projects/venv
+pip3 install google-auth
+pip3 install google-auth google-cloud-aiplatform
+
+#TEST
+# As a mortgage applicant, I want to upload my financial documents securely so that my loan application can be processed quickly and accurately.
+#https://diwankarkumar12.atlassian.net/wiki/spaces/~557058ba9245d03fa747f3a5b61123dece187c/pages/65861/Automate+Pre-Approval+Checks+in+Mortgage+Loan+Application+Workflow
