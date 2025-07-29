@@ -15,3 +15,58 @@ pip3 install google-auth google-cloud-aiplatform
 #TEST
 # As a mortgage applicant, I want to upload my financial documents securely so that my loan application can be processed quickly and accurately.
 #https://diwankarkumar12.atlassian.net/wiki/spaces/~557058ba9245d03fa747f3a5b61123dece187c/pages/65861/Automate+Pre-Approval+Checks+in+Mortgage+Loan+Application+Workflow
+#streamlit run 
+
+
+gcloud auth application-default print-access-token
+
+curl -X POST \
+-H "Authorization: Bearer $(gcloud auth application-default print-access-token)" \
+-H "Content-Type: application/json" \
+https://us-central1-aiplatform.googleapis.com/v1/projects/llmdemo-466101/locations/us-central1/publishers/google/models/gemini-2.5-flash:streamGenerateContent \
+-d '{ "contents": { "role": "user", "parts": [ { "text": "Describe this picture." } ] } }'
+
+
+
+
+#test 
+
+curl --request POST \
+  --url 'https://diwankarkumar12.atlassian.net/rest/api/3/issue' \
+  --user 'diwankarkumar12@gmail.com:ATATT3xFfGF0QYgF0NDzrMkET1oCJejZDiE2CDwnRFvRTYZ4ljr_sCc2gBQHNhz5XsZfQTqrhwhdZw2jZUYNvU1lwZ3LfcrWWUbXbeo_-fhNoYvnHPj78fJIj24dd2VL3Oxbiym1iYwY1N7Hs2CuUwO5xozgd6EC51LWupv5X5tbfzNrwO-OfuI=19BE603A' \
+  --header 'Accept: application/json' \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "fields": {
+      "project": {
+        "key": "SCRUM"
+      },
+      "summary": "Create data ingestion service in Python",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Implement data ingestion using pandas and airflow for real-time pipelines."
+              }
+            ]
+          }
+        ]
+      },
+      "issuetype": {
+        "name": "Story"
+      }
+    }
+  }'
+
+
+gcloud ai indexes create \
+  --project=llmdemo-466101 \
+  --region=us-east1 \
+  --display-name="gemini-embedding-index-768" \
+  --metadata='{"config":{"dimensions":768,"approximateNeighborsCount":10}}' \
+  --description="Index for Gemini embeddings with 768 dimensions"

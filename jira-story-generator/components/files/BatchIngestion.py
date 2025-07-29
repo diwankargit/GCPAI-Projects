@@ -12,7 +12,7 @@ REGION = "us-east1"
 MODEL = "gemini-1.5-pro"
 EMBED_MODEL = "gemini-embedding-001"
 INDEX_ID = "confulence_embeddings_1753142558399"
-SERVICE_ACCOUNT_JSON = "/Users/bhavanakajal/Documents/GitHub/GCPAI-Projects/keys/llmdemo-466101-bdc97cc1624c.json"
+SERVICE_ACCOUNT_JSON = "/Users/bhavanakajal/Documents/GitHub/GCPAI-Projects/keys/llmdemo-466101-3acdef328b4a.json"
 
 # Initialize clients
 aiplatform.init(project=PROJECT_ID, location=REGION, credentials=aiplatform.gapic.helpers.from_service_account_file(SERVICE_ACCOUNT_JSON))
