@@ -18,3 +18,16 @@ model=GenerativeModel("gemini-2.5-flash")
 res=model.generate_content("What is LLM ?")
 print(res.text)
 
+## generation config 
+from vertexai.generative_models import GenerationConfig
+
+generation_config=GenerationConfig(
+     temperature=0.9,
+     top_p=1.0,
+     top_k=32,
+     candidate_count=1,
+     #max_output_token=8192,
+)
+
+res=model.generate_content("Why do sunsets appear red and orange?",generation_config=generation_config)
+print(res.text)
