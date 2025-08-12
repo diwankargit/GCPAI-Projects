@@ -6,7 +6,7 @@ project-setup.txt
 __pycache__/
 *.py[cod]
 *$py.class
-
+jira-story-generator
 # C extensions
 *.so
 
