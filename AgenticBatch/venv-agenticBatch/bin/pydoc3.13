@@ -1,0 +1,5 @@
+#!/Users/bhavanakajal/Documents/GitHub/GCPAI-Projects/AgenticBatch/venv-agenticBatch/bin/python3.13
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
