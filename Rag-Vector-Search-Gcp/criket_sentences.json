@@ -1,0 +1,594 @@
+{"id": "2f1b138c-e591-41f7-b2d9-d3317abccee5", "sentence": "Page 1 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 Table of Contents 1 Rules and Regulations ..................................................................................................................................."}
+{"id": "7aca30fa-befd-44fb-b162-661a5b4bb526", "sentence": "3 2 Spirit of the Match .........................................................................................................................................."}
+{"id": "4facaa69-f572-4846-a554-d4ce915b798b", "sentence": "3 3 Terminology ...................................................................................................................................................."}
+{"id": "c0487ccf-8770-436f-8d2d-919b152aebc8", "sentence": "3 4 Team Registration .........................................................................................................................................."}
+{"id": "895f3220-a585-4053-b227-83db4a6df528", "sentence": "4 5 Equipment ......................................................................................................................................................."}
+{"id": "e332fc56-20da-44d2-8d8f-4423d0d74910", "sentence": "4 6 Clothing & Shoes ............................................................................................................................................"}
+{"id": "370e2cca-cb7b-441c-b530-230af1b2e55c", "sentence": "5 7 Season Schedule ............................................................................................................................................"}
+{"id": "621f3c3c-6c99-4023-8d29-b7480b18e762", "sentence": "5 8 Team Roster ...................................................................................................................................................."}
+{"id": "3ef232ce-85bd-47d3-9a6a-12e86febd7eb", "sentence": "6 9 Player Eligibility for Playoffs ........................................................................................................................."}
+{"id": "39db7459-0adc-4c81-abdf-e2bdd661a24c", "sentence": "7 10 Format ............................................................................................................................................................"}
+{"id": "96b101c2-a3c0-4104-98cd-426aa5f6092d", "sentence": "7 10.1 Overs ....................................................................................................................................................."}
+{"id": "6cbba48a-ac60-4866-9a82-cfcb8d60d9ce", "sentence": "7 10.2 POINTS ................................................................................................................................................."}
+{"id": "16da2c10-4d9f-4c28-9efa-ca4b6f7c9b54", "sentence": "9 10.3 Playoffs ................................................................................................................................................"}
+{"id": "a6c74fe6-a0b4-498d-aadd-dd78b96641d1", "sentence": "10 10.4 Ranking ................................................................................................................................................"}
+{"id": "8571bce8-0fab-4d61-a717-3540598804f6", "sentence": "10 11 Match Results ............................................................................................................................................."}
+{"id": "6a52e8e0-cf7c-45d6-b5ef-a9a091c07207", "sentence": "11 12 Start Time and Duration ............................................................................................................................."}
+{"id": "7c9dfc1d-0515-45aa-986d-84b8dbb13572", "sentence": "13 13 Umpiring ......................................................................................................................................................"}
+{"id": "1484d6f8-fce4-42c2-be00-808119f25f48", "sentence": "13 14 Toss ............................................................................................................................................................."}
+{"id": "bcb33f39-8672-4838-9631-f3af52ad3d39", "sentence": "14 15 Delayed Start ..............................................................................................................................................."}
+{"id": "685a2284-d9c4-4f81-89aa-a8c39be0f648", "sentence": "15 16 Completion of Overs and Slow Over Rate ................................................................................................"}
+{"id": "080e2fe8-07b4-4079-ae6c-e12ee82989a5", "sentence": "15 17 Bad Light ....................................................................................................................................................."}
+{"id": "9a27d525-76ff-47c1-8c54-090a2eb1710a", "sentence": "16 18 Rain Rules ..................................................................................................................................................."}
+{"id": "679964e5-32d2-4456-90af-1156803f9098", "sentence": "16 18.1 Round Robin Matches ........................................................................................................................."}
+{"id": "44fabd91-f6a1-49d8-9e14-8df1cddbda79", "sentence": "16 18.2 Playoff Matches Only ..........................................................................................................................."}
+{"id": "643cf41c-f159-47aa-ac47-45ba8926f0a7", "sentence": "17 18.3 Rain Interrupted Matches ...................................................................................................................."}
+{"id": "760fd802-7822-45ea-8d5c-e005326a597b", "sentence": "17 19 Playing Surfaces ........................................................................................................................................."}
+{"id": "def78016-9551-49aa-a2fe-2f0295ae8a3c", "sentence": "18 20 Field Setup .................................................................................................................................................."}
+{"id": "3f529f88-5940-48be-a314-469424efa1a7", "sentence": "18 21 Cricket Rules ..............................................................................................................................................."}
+{"id": "eedc7ac6-3dbc-4319-a761-4d0ebd22ec66", "sentence": "19 21.1 Fielding Restrictions ............................................................................................................................"}
+{"id": "b690a754-78d7-4086-acd8-f167e4caa6da", "sentence": "19 21.1.1 Max Fielders ....................................................................................................................................."}
+{"id": "5403b2a7-82a1-47ec-a138-a45111dfb04d", "sentence": "19 21.1.2 Minimum Fielders ............................................................................................................................."}
+{"id": "01d47488-69f4-4d98-97f4-58fd52ba9a53", "sentence": "19 21.1.3 Power Play ........................................................................................................................................"}
+{"id": "09651d62-9e59-4a93-9fb4-8068bc2c6540", "sentence": "19 21.2 Dead Ball ............................................................................................................................................."}
+{"id": "e1084695-ee44-448e-9d93-5aa194fab341", "sentence": "19 21.3 When Ball is dead ................................................................................................................................"}
+{"id": "e4d4e277-c7ea-46f7-9c65-5646b8661141", "sentence": "19 21.4 Wide Ball .............................................................................................................................................."}
+{"id": "e9674076-0693-4c68-bc88-80b77504ed65", "sentence": "19 21.4.1 Leg side wide ...................................................................................................................................."}
+{"id": "dbd20e4a-cc74-426f-8e73-fbc75b065396", "sentence": "19 21.4.2 Off side wide ....................................................................................................................................."}
+{"id": "04c911be-d5a5-4c5b-ba9a-1ed9878edb28", "sentence": "20 21.4.3 Height wide ......................................................................................................................................."}
+{"id": "8088168f-9d1c-431e-8e92-3f8863dd79c0", "sentence": "21 Page 2 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 21.4.4 Switch Hit and Reverse Sweep ........................................................................................................"}
+{"id": "8cd17e4d-c35e-4df5-acd4-82fd512e0ca3", "sentence": "21 21.4.5 Out from a wide ball .........................................................................................................................."}
+{"id": "d5c3e86d-2cfb-42d7-9f41-0d2b4398b069", "sentence": "22 21.5 No Ball ................................................................................................................................................."}
+{"id": "f6285821-8e63-4c5d-b1bc-6fa84b060773", "sentence": "22 21.5.1 General Rules ..................................................................................................................................."}
+{"id": "3390c12a-dc49-4f71-88a6-f2b5c6316cd5", "sentence": "22 21.5.2 Fair Delivery ......................................................................................................................................"}
+{"id": "4feedaf4-1c59-4a35-afd4-bd891f1b0e5c", "sentence": "22 21.5.3 Free Hit ............................................................................................................................................."}
+{"id": "0485253f-50f5-4e19-96b3-33023554e5cc", "sentence": "23 21.5.4 Dangerous Delivery No Ball .............................................................................................................."}
+{"id": "10e5d421-aed3-46be-aab7-c83fd7bd981a", "sentence": "24 21.5.5 No-Ball due to Fielding Restrictions .................................................................................................."}
+{"id": "59d0e48e-3873-44c4-90c7-f4eba3875a3d", "sentence": "25 21.5.6 Throwing ..........................................................................................................................................."}
+{"id": "5be4eeae-7030-430b-891e-ae10311e7708", "sentence": "25 21.5.7 Additional No-Ball situations ............................................................................................................."}
+{"id": "fff8cc65-f667-40fb-8ed7-10e39c4233bb", "sentence": "25 21.6 LBW & Leg Byes .................................................................................................................................."}
+{"id": "5006189b-1ddd-4762-acb0-22945da3ec8b", "sentence": "26 21.7 Non-striker leaving ground early (Mankading) ....................................................................................."}
+{"id": "4a8e732c-b630-40af-a27a-43dba58c5fb5", "sentence": "26 21.8 Run out - Wickets Down or Moved ......................................................................................................"}
+{"id": "ec6fb6de-f1d5-4533-a92f-316e9cf92cd0", "sentence": "26 21.9 Recalling a batter ................................................................................................................................."}
+{"id": "5ad7a97a-aa47-4b76-97c4-f9e40ae31696", "sentence": "27 21.10 Fair & Unfair Play ..............................................................................................................................."}
+{"id": "9f9a64c1-41a9-47dc-8e27-848bd6735902", "sentence": "27 22 Boundaries and Catches ............................................................................................................................"}
+{"id": "7e58dc32-8a6b-4c89-ab9f-7e42c9122fb8", "sentence": "27 23 Substitute players ......................................................................................................................................."}
+{"id": "df67ab4a-c4ba-48b4-ac43-bc969ef6c435", "sentence": "27 24 Retiring ........................................................................................................................................................"}
+{"id": "623d46da-f490-468f-8a59-7e099d4f53d3", "sentence": "28 25 Runner / By-Runner ...................................................................................................................................."}
+{"id": "c0d60853-07ab-446d-a77e-d50a04cdb96e", "sentence": "28 26 Fair and Unfair play ...................................................................................................................................."}
+{"id": "4c143ba3-c255-47a8-90af-aaf6c60a1a7d", "sentence": "28 27 Misconduct Warning .................................................................................................................................."}
+{"id": "a416da77-84e5-471d-8d11-96b401b73754", "sentence": "29 28 Against the Spirit of the Match .................................................................................................................."}
+{"id": "ecac367b-d67e-4e61-80fa-c9cd20072ce5", "sentence": "29 29 After the Match ............................................................................................................................................"}
+{"id": "2b32659e-c997-432c-aee1-b741ba52d7c1", "sentence": "29 30 Scoresheets & Match Reports ..................................................................................................................."}
+{"id": "f7fbe8a1-a757-474a-bca8-6ecca6b71fca", "sentence": "30 31 Protests & Complaints ..............................................................................................................................."}
+{"id": "d41fd2cc-e76f-4618-add6-3b11f130ef60", "sentence": "30 32 Awards and Trophies ................................................................................................................................."}
+{"id": "97a1b7b7-fd92-4f0b-9188-ec3d7d10917c", "sentence": "30 33 Disclaimer ...................................................................................................................................................."}
+{"id": "b742fa26-3c9b-4682-8f48-ab8e37e3ece0", "sentence": "31 34 Appendix A .................................................................................................................................................."}
+{"id": "22837941-87f1-4a8d-abc8-6d744feb6d0a", "sentence": "31 34.1 Crease markings .................................................................................................................................."}
+{"id": "ac250dc0-913d-4e31-a935-aae5630c61e3", "sentence": "32 34.2 Umpire preparation resources ............................................................................................................."}
+{"id": "2f4c359f-5d21-412e-a773-17bd678ce63b", "sentence": "32 Page 3 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 1 Rules and Regulations ACL is responsible to formulate and govern all league and tournament rules including specific circumstances and/or issues"}
+{"id": "8aa3a153-6b74-40c2-9085-a5d0dacc590f", "sentence": "ACL reserves the right to add, modify and/or delete any rule or guideline during the season if deemed necessary to maintain the integrity of the league"}
+{"id": "3c0697d8-47e3-4cef-bedc-abee2d4c8fea", "sentence": "All changes made to the rules during the season will be communicated to all participating teams"}
+{"id": "fb65f498-848e-4cce-99cb-4a538f985d6f", "sentence": "This document is broadly based on the International Cricket Council\u2019s (ICC) rules and applied to ACL requirements"}
+{"id": "ed77b102-06ed-4598-b1f2-157a6a652164", "sentence": "Any cricketing rules not covered in this document will be processed per ICC\u2019s rules and guidelines"}
+{"id": "15726163-db9c-4b25-8459-44d87f2767d0", "sentence": "2 Spirit of the Match Cricket is a match that owes much of its unique appeal to the fact that it should be played not only within its Laws but also within the Spirit of the Match"}
+{"id": "751d75b0-996d-43b9-9771-88532ba4dffc", "sentence": "Any action, which is seen to abuse this spirit, causes injury to the match itself"}
+{"id": "4ac03b36-1bd2-4cb9-80b4-1e5f433f3690", "sentence": "ACL Code of Conduct (Available in Documents section on ACL website) Mutual Respect: ACL strongly recommends that everyone respect ACL rules, code of conduct, your opponents, your own captain, your teammates, ACL organizers, the match umpires and their decisions and the match results"}
+{"id": "4eb7536d-6fa6-46ca-bede-088b8226925e", "sentence": "Captain\u2019s Responsibility: Captains are responsible for ensuring that play is conducted within the Spirit of the Match as well as within the Laws, and as per ACL rules"}
+{"id": "b5901098-5fc1-44bc-b3dc-103852c2975f", "sentence": "Captain is primarily held accountable for the team and its violations"}
+{"id": "76a729be-542d-41eb-92cc-8eb1e6ee0690", "sentence": "Player\u2019s Responsibility: Players are responsible to uphold the spirit of the match and integrity of their respective teams"}
+{"id": "79e7e385-feb8-4a39-8b5e-0d14ff90ceef", "sentence": "Players will be accountable for their individual violations and will be accounted towards the team violations, as well"}
+{"id": "9ae15fe3-cd31-438f-bcab-8e2b63bfd125", "sentence": "Umpires\u2019 Responsibility: Umpires are considered as \u201cPlayers\u201d and are responsible to uphold the spirit of the match and integrity of the match"}
+{"id": "6e3fb978-0838-472d-84c2-7cb27d104c74", "sentence": "Umpires will be accountable for their individual violations and will be accounted towards the team violations, as well"}
+{"id": "e5322785-4513-4416-8019-d43e544c5649", "sentence": "3 Terminology ACL: Atlanta Cricket League Disciplinary Committee (DC): Team which will address all reported issues following the guidelines in Code of Conduct"}
+{"id": "c085e124-02ac-46b8-b647-473875280d7d", "sentence": "Sometimes it will be referred to as an appeals committee"}
+{"id": "4f461938-fd45-4343-b868-b090627ccffd", "sentence": "Written Complaint: Sending an email to ACL at info@atlantacricketleague.org Home Team: Home team is the team that is responsible for field setup and will also have preference to call toss"}
+{"id": "206bcc91-363b-40d2-bc5e-cd5dc6e5ff57", "sentence": "Visiting Team: Visiting team is the team that can assist but not responsible for Field Setup"}
+{"id": "679289df-2d8a-4991-923a-f1274f873e9e", "sentence": "Umpiring Team: Umpiring team is the team that is responsible for informing ACL on assigned umpires for upcoming matches by Thursday for the weekend games, 2 days prior to the games"}
+{"id": "cb52f1c9-61d0-4e91-8ea7-56117ae62520", "sentence": "Umpire: Any use of the word umpire in this document means an assigned umpire for the match, i.e"}
+{"id": "4ed6b068-7f89-464e-9d84-852ccff23f39", "sentence": "an umpire not belonging to the two playing teams"}
+{"id": "bdc5d5a0-2b31-4142-95ff-adec1855a0f2", "sentence": "Round Robin: Stage of a Tournament where teams play a set number of matches to qualify for the next round of Playoffs"}
+{"id": "14155cba-ffc9-4562-be5a-ef77347203e6", "sentence": "Page 4 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 Playoffs: Playoffs include Pre-Quarter Finals, Quarter Finals, Semi-finals, and Finals and any match that is played to determine the playoff spot or ranking"}
+{"id": "02c8606f-5fd6-459b-bc10-39af1e087e67", "sentence": "It does not include round-robin matches"}
+{"id": "e94c32ff-1d83-4414-8d3f-5118be8d001d", "sentence": "Rain-Out: A scenario where a particular match could not be completed due to rain or wet ground conditions"}
+{"id": "e0170ba7-6907-4bd0-a1f6-39b5948359aa", "sentence": "Wash-Out: A scenario where ACL cancels all matches for the day due to rain or wet ground conditions"}
+{"id": "cc8a7652-3da1-4deb-a9c2-0b23fd7e796c", "sentence": "Banquet: End of the year event to recognize winners and runners, sponsors, and volunteers"}
+{"id": "5f271d40-61bc-411f-a2de-ae8f19206297", "sentence": "Wide guideline: The wide guideline is a marked line extending [3\u2019] from the middle stump on either side (Refer to Appendix A for guidance) Switch Hit & Reverse Sweep: Altering the batting stance from right-handed to left-handed, or vice versa, or switching the grip of the bat is called a switch hit or a reverse sweep"}
+{"id": "d669d2db-cfd4-457a-95c8-8e6d9f9ab56d", "sentence": "4 Team Registration ACL organizes several Tournaments throughout the year where Teams can register to participate"}
+{"id": "ff5eae39-d3dc-402c-9656-f96b1bac9748", "sentence": "Fee: Team Registration fee for the ACL tournaments will be communicated as part of ACL announcements to the ACL Community through email, website, and/or social media and is subject to change from year to year"}
+{"id": "43403a29-06c4-4d16-8236-ae81e014504d", "sentence": "Payment: Payment must be made to Atlanta Cricket League using the provided payment methods (available at https://atlantacricketleague.org/home/payment ) and must be received by the due date specified by ACL to consider the respective team\u2019s participation in the ACL tournament"}
+{"id": "3c21b597-c3cf-4516-96cf-e3a890e5de9b", "sentence": "The registered Team name MUST be included on the payment"}
+{"id": "7e6c4b0a-dc3a-4166-8f1c-e3cdd7d8e692", "sentence": "Sponsor Payment: Teams MUST provide a personal check for the amount due, as a placeholder in the event a Sponsor check is anticipated"}
+{"id": "e1377aac-d66d-4b1b-868b-24782438d3fd", "sentence": "ACL will hold the check for 30 days before it is deposited towards the team fee"}
+{"id": "201f32bd-323b-43cf-aa2e-73bc93333565", "sentence": "ACL will return/void the check upon receipt of the Sponsor check"}
+{"id": "54131973-8836-4435-b92c-ff4dff3ae023", "sentence": "Past Dues: Teams MUST clear all pending dues before registration can be accepted for the season"}
+{"id": "0f040da3-1559-48de-8141-3ffe0878526a", "sentence": "Team Names: ACL reserves the right to approve or disapprove team names"}
+{"id": "23e89fe5-ac63-4742-8508-519c9e66ce2a", "sentence": "Multiple teams are not allowed to use the same team name and all teams MUST adhere to guidelines in the \u201cTeam Name Rules\u201d document published on the ACL website"}
+{"id": "e03c3356-c209-498c-89b1-065e023a398c", "sentence": "5 Equipment All ACL teams MUST use cricket equipment deemed legal as per the ICC regulations"}
+{"id": "45903e25-631b-4e6d-b1d0-8a9e7c7ed213", "sentence": "Match Balls: ACL will provide teams with match balls which are the only balls to be used for ACL scheduled matches"}
+{"id": "eeebffe2-3c4e-41e0-86f2-da03d8851ba1", "sentence": "Each innings must be started with a new ball only"}
+{"id": "e346f07f-b640-4a75-ab4b-76839110b260", "sentence": "Any ACL team in violation of using the ACL approved ball may forfeit the match if found guilty"}
+{"id": "109bec93-919a-44d3-8fe9-9f79f68b67ba", "sentence": "Page 5 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 Stumps: All ACL teams must carry at least one set of spring base stumps to the match"}
+{"id": "b535cd56-9525-44d6-a0cf-050bb9005919", "sentence": "In other words, the Home team and Visiting team are responsible for bringing one set of spring base stumps each for the match"}
+{"id": "ac57e1f2-facc-412a-bcd9-387d637fff00", "sentence": "Only \u201cSpring Stumps\u201d must be used, and no digging is allowed in baseball grounds"}
+{"id": "4c0e6022-bb4e-4611-a383-90c530f43156", "sentence": "Measuring Tape: All teams MUST carry a measuring tape of a minimum of 200 ft in length as required equipment"}
+{"id": "675e258d-c14e-43d9-bd31-e0c0690caa84", "sentence": "Cones: All teams must carry plastic cones to use for boundary lines where they are needed"}
+{"id": "1f21f935-a258-4fe7-9c22-fa8ff50e0172", "sentence": "Extra cones are required for teams to mark the inner circle if needed"}
+{"id": "81a55734-2b94-4c28-8f07-b2cb6acda588", "sentence": "First-Aid Kit: Teams are recommended to carry a First-Aid Kit as part of the equipment Scoring App: All ACL teams must use the ACL Scoring app to score matches"}
+{"id": "ef3f1bcd-d254-44a2-8892-253621960b7c", "sentence": "6 Clothing & Shoes ATTIRE: All players and umpires MUST wear sporting attire including long trousers, shirts with sleeves, and sports shoes"}
+{"id": "c2e815cb-a3b1-4654-97b0-749a013dd1b1", "sentence": "Team Jerseys are mandatory"}
+{"id": "7ebb05fd-37c1-4f14-8b83-6ffae51225f0", "sentence": "Attire should not have any message or symbols that are derogatory to ACL, any community, race, etc"}
+{"id": "f43ab5e3-fbd2-409d-894b-4140d7936939", "sentence": "(Umpires shall ask the players to change their attire if deemed inappropriate) SHORTS & SLEEVELESS: Players are not allowed to play the match wearing shorts and/or Sleeveless shirts"}
+{"id": "5203c186-0cb5-43db-9789-594769a39397", "sentence": "METAL SPIKES: Players cannot wear shoes with metal spikes to prevent damaging the pitch"}
+{"id": "cb1b08b4-70de-4922-b21f-9225a54339a7", "sentence": "7 Season Schedule The Start and End dates for the league Round Robin and playoff matches are communicated through the ACL announcements"}
+{"id": "4bbf1cf7-ee13-4725-a052-b51aebbf62dd", "sentence": "Match Schedule: Each team\u2019s scheduled match date and time including ground assignments will be posted on the ACL website"}
+{"id": "1547d82d-9a91-4c22-915f-deedcf7344a1", "sentence": "Any schedule changes must be approved by the ACL"}
+{"id": "526404ef-3f95-4cfa-9410-3e2c4ee446f1", "sentence": "Grounds: Teams must play at the scheduled ground and at the scheduled date and time"}
+{"id": "f38004aa-4955-44d5-a42e-d02ecddc3b04", "sentence": "Any changes to ground or time without ACL approval will be considered a forfeit by both teams and will be subjected to a penalty for a no-show"}
+{"id": "3d174248-d80a-406c-ba6a-50a10b4d07b6", "sentence": "Umpiring: Each team must umpire a specified number of matches in the season and should plan to send 2 umpires on time with no exceptions"}
+{"id": "0d25f0dd-621c-43ec-bfc6-53c7e154d7a0", "sentence": "Violations will apply as per the Code of Conduct document"}
+{"id": "f843c1d4-ff88-4efc-a534-1c3c28dce492", "sentence": "Rescheduling: No rescheduling requests will be entertained or accommodated by ACL"}
+{"id": "1a50e9f4-d664-4190-8008-4f649b3ca478", "sentence": "ACL may reschedule a match under special circumstances as in \"acts of God\" or due to any unforeseen circumstances"}
+{"id": "f8a0e996-4709-4b68-aaa8-7d510d782a70", "sentence": "Rescheduled games may be played with reduced overs"}
+{"id": "349d9967-2094-44f6-952f-5206628cf549", "sentence": "ACL will communicate the criteria and the cut-off dates for the matches that are eligible for \u201crescheduling\u201d"}
+{"id": "8c477bc3-cb0d-4dc2-b08e-ac70887dde90", "sentence": "Reserve Day: A reserve day may be available for playoff matches including Finals"}
+{"id": "4db19bfd-4af4-41bc-a68f-26118723525a", "sentence": "If Reserve Day is also either Washed out or Rained Out then higher ranked team will advance to the next round"}
+{"id": "ff9e9f02-3c65-4a22-9509-9df1923fa5cf", "sentence": "Page 6 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 8 Team Roster Maximum Players: The team registration fee will cover up to a maximum of 15 players per team for F15 Leagues and a maximum of 18 players per team for T20 Leagues"}
+{"id": "5920c29a-d26e-4ed2-b5be-ec569dcb6741", "sentence": "Additional players can be added to the roster with a fee of $50 per player T20 and $25 for F15"}
+{"id": "e3a05c52-e8db-441b-a176-3c7988f4540c", "sentence": "The maximum number of players for a team roster for T20 is 22 and F15 is 18"}
+{"id": "e992ee00-23f4-4d3c-8009-6088782648e2", "sentence": "New Player: A new player MUST be added to the roster before the start of the match and must complete signing of all waivers"}
+{"id": "d48fa5c0-2802-4080-a03f-4713a097ff0b", "sentence": "It is suggested to have the registration completed a day before the match day"}
+{"id": "f9ee6ff5-1007-401f-9371-20554724ecef", "sentence": "New players must not have played for any other team in the same Tournament"}
+{"id": "3f07ff3d-0b7b-4232-b6fc-60f18871d88f", "sentence": "Player Representation: A player can be on the roster for only one team during a tournament"}
+{"id": "51d41bcb-fd59-4349-8e06-b3109b4d68dd", "sentence": "This applies to all F15 and T20 Leagues"}
+{"id": "1f28b2b9-e8c0-4263-9a3d-6022aeb7307d", "sentence": "Players can switch teams for a new Tournament"}
+{"id": "a68e6d5b-e8f1-4776-9954-b06659dd9eb0", "sentence": "The umpires must ensure that the players listed on the roster are the ones participating in the match"}
+{"id": "b57f2d3d-4997-4e17-afbc-ecaf66636fb7", "sentence": "Any player found playing under a different name will be subject to disciplinary measures and potential reversal of the match outcome"}
+{"id": "9466a52c-4c0b-4928-a31f-6b82662878df", "sentence": "Examples: A player can play for Team ABC in the Spring KO Tournament and can switch to Team XYZ in a new Tournament like Super Bash"}
+{"id": "043eeae3-dc14-4425-b922-ce5be70b6416", "sentence": "A player cannot play for one team in F15 League and another team in T20 League as they are part of ACL"}
+{"id": "025fa9c3-a936-429e-ac1c-c986bfdc25ad", "sentence": "Releasing Players: A player cannot be released if they played at least one match for the team in the tournament"}
+{"id": "17dd662f-daa1-4905-b740-7883dd363e32", "sentence": "This applies to a player representing the team either in playing 9 for F15 (or 11 for T20) or as a substitute"}
+{"id": "10872767-97c6-40b8-b6d0-bad5bbb6494e", "sentence": "If the player did not represent the team in any match, then the captain can release the player from the roster and the released player can join another team"}
+{"id": "504a4de2-6fcc-4cb0-9ff4-e256b30e7310", "sentence": "Violation Player Violation: A player representing a second team in a Tournament will be in violation of ACL rules"}
+{"id": "d7919ace-d048-4451-88a0-03c816f55b20", "sentence": "The player cannot play for any other team, including the represented teams for the remainder of the tournament"}
+{"id": "51e56201-1067-420e-bd53-421c6fcf7966", "sentence": "Team Violation: The Team for which the player represented second is also in violation of ACL rules"}
+{"id": "6397ce22-0f02-4051-86c3-fed23eee2be7", "sentence": "A team violating the rule more than once will be banned from the tournament"}
+{"id": "f22db6bc-4eb1-4821-844e-30619ee389a2", "sentence": "In other words, the team will not be allowed to participate in the remainder of the tournament (including the playoffs)"}
+{"id": "83a01666-c990-4e61-b012-a0061e3f677b", "sentence": "Teams yet to play the violating team will be deemed to have 'won' the match and will be awarded the full points"}
+{"id": "c0f22442-d762-45c1-ac6f-3b836cca54fa", "sentence": "Penalties: Both the Player and Team will be penalized as per the Code of Conduct document"}
+{"id": "33cd60df-0635-4435-9a32-35d70078729e", "sentence": "The opposition team will also be awarded the match along with corresponding points, irrespective of the original result of the match"}
+{"id": "70573d02-2bb4-44c7-9c7a-b96baf2d26b1", "sentence": "Violation Discovery Before Match: If discovered before the start of the match, the player shall not be allowed to play under any circumstances"}
+{"id": "10cbee9b-8212-44d2-8451-0de08f625157", "sentence": "If that player\u2019s captain insists on playing him/her, the umpire will call the match off and award the match and corresponding points to the opposition team"}
+{"id": "e5e19e12-943c-4089-b985-9cb81f7316d4", "sentence": "During Match: If discovered during a match (in progress), the umpire will stop the play, and award the match and corresponding points to the opposition team"}
+{"id": "7d92d0e0-b2e9-4bb2-8868-06cf54f11d46", "sentence": "After the Match: If discovered after the match has been completed, the opposition team may file a written complaint with the league, along with the initial evidence supporting the complaint"}
+{"id": "3561085d-bf18-456d-b03d-e72b259505e0", "sentence": "Page 7 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 Points: ACL will investigate the complaint and if the complaint is upheld, the team in violation will lose the match, along with points to the opposition team"}
+{"id": "086ae790-f868-4ede-803a-c62819cacdfd", "sentence": "9 Player Eligibility for Playoffs Minimum Matches: A player must play at least 30% of the matches during the Round Robin phase to take part in playoffs"}
+{"id": "3fed1595-0100-4bf5-8540-afb4aec00158", "sentence": "In the case of a fraction, the number of matches will be rounded off to the nearest whole number"}
+{"id": "e6508102-6dea-404f-a883-e748c88c22ee", "sentence": "ACL reserves the right to specify the exact number of minimum matches per player for a tournament"}
+{"id": "600c2710-4009-4b33-b126-6c03254c15d1", "sentence": "Example: If a team to play 11 Round Robin matches, 30% is \u201c11 * 30/100 = 3.33\u201d, rounding off to the nearest whole number, a player must play a minimum of 3 matches to be eligible for playoffs"}
+{"id": "df10093a-2795-42b6-b34d-d6e9c1d00586", "sentence": "For 13 Round Robin matches, 30% is \u201c13 * 30/100 = 3.90\u201d, rounding off to the nearest whole number, a player must play a minimum of 4 matches during the Round Robin stage"}
+{"id": "e581d048-5285-40d4-8e00-4d798e8e1d23", "sentence": "Violation: The team will be in violation if the Minimum Matches rule is not followed for playoffs and will be penalized as per the \u201cCode of Conduct\u201d document"}
+{"id": "f5a96dcd-afb4-4fea-80eb-1897240121ac", "sentence": "10 Format League Format: Please refer to the League Format document published in the Documents section on the ACL website"}
+{"id": "b6e8c042-c992-4b22-9bd8-42be1893395d", "sentence": "Match Format: All matches will be played as one inning per side"}
+{"id": "f260c8b1-885d-4921-b4ca-0ca3e2bd6918", "sentence": "10.1 Overs The number of overs per innings must be finalized before the start of the match"}
+{"id": "a7797971-27db-4f67-9fe2-cf5a9772913f", "sentence": "Once determined, the maximum allotted overs cannot be changed at any stage of the match"}
+{"id": "3ea27eb6-0e39-433f-8925-f4661b01b394", "sentence": "F15 Maximum Overs: Each inning will consist of Maximum 15 Overs unless it is a shortened match due to weather or any other situation, determined by the ACL Coordinator and Umpires"}
+{"id": "2f817e1a-1de1-40df-8307-b1e0b199c3f7", "sentence": "F15 Minimum Overs: Minimum of 8 overs MUST be played in case of a shortened match"}
+{"id": "d6b3be34-cf16-4203-9440-3dab927e6f9e", "sentence": "Power play overs will be reduced accordingly in case of a shortened match"}
+{"id": "2f0d2d60-c5e6-42a2-91cc-817ff630ae64", "sentence": "T20 Maximum Overs: Each inning will consist of Maximum 20 Overs unless it is a shortened match due to weather or any other situation, determined by the ACL Coordinator and Umpires"}
+{"id": "db5ec23b-c058-4911-b9cc-269a74e9d671", "sentence": "T20 Minimum Overs: Minimum of 10 overs MUST be played in case of a shortened match"}
+{"id": "9bffc5a1-8b27-49f4-8b67-247c49d6a650", "sentence": "Power play overs will be reduced accordingly in case of a shortened match"}
+{"id": "13fa692c-a391-4b3d-84dd-3bdeb6b7948b", "sentence": "Incomplete Match: A match will be counted as \u201cIncomplete\u201d if it is stopped for any reason after the start of the match and if both teams could not complete their allotted overs"}
+{"id": "61a1d056-0f27-49fb-a503-236cce763c55", "sentence": "Page 8 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 A bowler can bowl a maximum of 4 overs"}
+{"id": "0ec79d22-ce09-4ccf-841a-bd3c06d08cfa", "sentence": "In the event of a shortened match, the total number of overs per innings shall get reduced, correspondingly the maximum limit per bowler shall be restricted as below"}
+{"id": "028362bf-3f1c-438b-8a55-67ea40c3b1a7", "sentence": "F15 Only Match Overs per Inning Max Overs per Bowler Power Play Overs (Division 1) 15 4, 4, 4, 3 4 14 4, 4, 3, 3 4 13 4, 3, 3, 3 3 12 3, 3, 3, 3 3 11 3, 3, 3, 2 3 10 3, 3, 2, 2 2 09 3, 2, 2, 2 2 08 2, 2, 2, 2 2 F15 Innings Duration: Each team will be required to bowl the allotted 15 overs in no more than 75 minutes (1 hr and 15 min)"}
+{"id": "c75497a0-aeb8-4eac-95bb-81b3540d571f", "sentence": "F15 Drink Breaks: A mandatory scheduled drink break for 5 minutes after 8 overs are completed and this break MUST be inside the field"}
+{"id": "3aa22603-bf43-4342-9678-67ab436fda1c", "sentence": "Bathroom breaks are allowed during the match and a substitute player can be used to continue the match"}
+{"id": "c78480c3-9f0e-44b6-b1ca-495f5b56ef54", "sentence": "Bathroom breaks cannot delay the start or continuation of the match"}
+{"id": "8fb8c2e0-fcf6-4ec0-9bd3-f51f501dbbf9", "sentence": "No last-man batting is allowed"}
+{"id": "5f0be48a-ce33-473e-8be4-405a14ff7264", "sentence": "This rule applies even if the team has less than 9 players on a given match day"}
+{"id": "a1d2154b-b063-4576-8d8d-b98d1406ba08", "sentence": "T20 Only Match Overs per Inning Max Overs per Bowler Power Play Overs 20 4, 4, 4, 4, 4 6 19 4, 4, 4, 4, 3 6 18 4, 4, 4, 3, 3 5 17 4, 4, 3, 3, 3 5 16 4, 3, 3, 3, 3 5 15 3, 3, 3, 3, 3 4 Page 9 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 14 3, 3, 3, 3, 2 4 13 3, 3, 3, 2, 2 4 12 3, 3, 2, 2, 2 3 11 3, 2, 2, 2, 2 3 10 2, 2, 2, 2, 2 3 T20 Innings Duration: Each team will be required to bowl the allotted 20 overs in no more than 100 minutes (1 hour and 40 min)"}
+{"id": "9df15b66-ea54-4acf-9a3b-a7916252aaa3", "sentence": "T20 Drink Breaks: A scheduled drink break for 5 minutes after the 10th over is complete, and this break MUST be inside the field"}
+{"id": "80879821-bf91-4100-b713-fd6171312a8c", "sentence": "Bio Breaks are allowed during the match and a substitute player can be used to continue the match"}
+{"id": "8b3e8da9-59e0-4ee8-872a-bddafbff0a05", "sentence": "Bio breaks cannot delay the start or continuation of the match"}
+{"id": "7f7e6d60-9307-4729-a46e-263a2201a4d8", "sentence": "No last-man batting is allowed"}
+{"id": "0ea3f1c6-c8c6-465b-8c39-3d520d0179da", "sentence": "This rule applies even if the team has less than 11 players on a given match day"}
+{"id": "b58235ed-39ad-4aeb-a65c-24ebf7188e8e", "sentence": "10.2 Points Win: 4 Points Loss: 0 Points Tie: 2 Points Forfeit: -1 point Match Forfeit: If for any reason, a team forfeits a match or in case of no show, ACL will deduct 1 Point and also the team will be penalized as defined in the ACL Code of Conduct"}
+{"id": "fb65828a-1e67-4d1e-9d07-682e090464ac", "sentence": "TIE: During the Round Robin stage, there is no Super Over and teams will split points in case of a tie (same runs for both teams irrespective of number of wickets)"}
+{"id": "f136c301-99b2-4065-a101-1baf51c38d88", "sentence": "Net Run Rate (\u201cNRR\u201d) Formula: (Runs Scored/Balls Faced - Runs Scored Against/Balls Bowled) In the event of a team being all out in less than its full quota of overs, the calculation of NRR will be based on the full quota of overs, and not on the number of overs the team played"}
+{"id": "32ec41d5-6660-431e-b43f-a0730dd9c7a2", "sentence": "Runs scored in Incomplete matches will not be used for NRR calculation"}
+{"id": "5a15f6cc-6290-4835-a2d8-209bb0f5c8a3", "sentence": "In the event of a match awarded to a team because of an opposite team\u2019s violation of league rules, or due to forfeit or walkover of the match or no show, the average positive NRR that was scored against the forfeiting team until that match will be awarded to the winning team"}
+{"id": "d516a7bd-ba15-4ba3-baca-b21fa01c12e7", "sentence": "This will be done by adding average runs to both teams for no loss of wickets to the scorecard for the match"}
+{"id": "9a45d848-f4d1-47f1-94e1-4809214a1000", "sentence": "Page 10 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 10.3 Playoffs SUPER OVER: In case of a TIE, super over will be used in all Playoff matches"}
+{"id": "2e016066-868b-4780-a585-deeac9820617", "sentence": "Reserve Days Reserve days will be used for playoffs in case a match cannot be completed due to rain or ground conditions"}
+{"id": "565338f2-4ef5-4e22-a448-176a99c6c9b7", "sentence": "Match MUST be played on a scheduled reserve day (including Saturday), if the minimum overs rule cannot be satisfied on the scheduled match day"}
+{"id": "2a69dd3d-7be5-4ee7-8a83-fd77ff1c200b", "sentence": "If no reserve day is scheduled for a Playoff match, then ACL shall evaluate all possible options available to derive a result"}
+{"id": "d1a5f275-d09c-46e2-b677-0440d650b85b", "sentence": "Advancing: If a result cannot be derived even on a reserve day, then a higher-ranked team will progress to the next stage"}
+{"id": "10b8cf40-5dd1-49d2-b1ed-b9ab6e409db1", "sentence": "FINALS: The trophy will be shared by both the finalists in the event the match cannot be completed even on a reserve day"}
+{"id": "8c163c4c-74c5-4d43-b930-ec515357a628", "sentence": "10.4 Ranking ACL ranking will be based on Total Points earned including any deduction of penalty points"}
+{"id": "883346df-ba26-48cb-80a0-511b3921c753", "sentence": "Please refer to the League Format document for additional details"}
+{"id": "850afa1e-12d1-4607-8fc7-64da7083b5db", "sentence": "In the event of teams finishing on equal points in any Division or Pool or Group, ranking will be decided as per the following criteria: Net Run Rate (\u201cNRR\u201d): Team with higher NRR will be ranked higher (up to 3 decimals will be considered) Head-to-Head Result: If two teams have equal points and equal NRR, then the winner of the Heat to Head match will be assigned higher ranking"}
+{"id": "645fc5fd-12bb-408f-9aec-26fa458f37b0", "sentence": "If more than two teams have equal points and equal NRR, then the team with the highest number of wins from the Head-to-Head matches played between them will be assigned a higher ranking"}
+{"id": "8aa32cc0-ef4c-48a5-8897-202e8a74e8d9", "sentence": "Example: If 3 teams are tied in the following scenario: Team A beat Team B but lost to Team C, Team B lost to A but did not play Team C Head-to-head Tie Breaker: Team A is 1-1 (50% win) Team B is 0-1 (0% win) and Team C is 1-0 (100% win) So Team C will be ranked higher than Team A and Team A higher than Team B"}
+{"id": "e6f6e2d5-3b3a-4004-9e3a-fe9de4dc3b18", "sentence": "If still equal, then the team with the higher number of wickets taken (in matches played between them or total matches played?) will be placed in the higher position"}
+{"id": "b3f3c2d4-211e-4501-b5f5-a25f11149e9f", "sentence": "In the highly unlikely event that teams cannot be ranked as per the above criteria, a random draw will be applied to assign the ranking between the tied teams"}
+{"id": "b5713939-7f7f-4b61-8e59-67977d2e1cc5", "sentence": "Ranking patterns for playoffs will be published by ACL"}
+{"id": "3dcc8351-a0be-4e85-b9e5-ca653bdf0f98", "sentence": "Page 11 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 11 Match Results Winner: The team scoring the greater number of total runs in the allotted overs shall be declared the winner"}
+{"id": "36253ddd-5a2d-4088-9f2e-31159499e155", "sentence": "No Result: If a match is canceled /abandoned due to any reason in Round Robin, the match result will be considered as \u201cNo Result\u201d Points will be shared and no NRR will be calculated"}
+{"id": "5505931e-72a5-466c-85a5-8935059be9aa", "sentence": "Postponement: Round round-robin match should be completed on the scheduled day under any circumstances, and it cannot be postponed to another day or week unless otherwise determined by the ACL committee"}
+{"id": "a5c36f96-6260-4647-a7bd-f35d108a74c7", "sentence": "In the case of Playoffs, if a reserve day is scheduled, then the match should be played again from the start (rematch) on the reserve day"}
+{"id": "b103f1c4-e78c-45da-bc06-9877798b6615", "sentence": "Advancement: If a playoff match cannot be held or completed for any reason even on the reserve day, then the higher-ranked team between the two teams would move to the next round"}
+{"id": "f59b12eb-b33c-43b9-9119-570b7fb87457", "sentence": "Shortened Match: In case a match must be shortened due to weather or ground conditions, the minimum over\u2019s requirement MUST be satisfied for it to be considered as a completed match and a result is derived"}
+{"id": "b38f5cc5-6190-411e-b992-2434e6d11d94", "sentence": "Tie Match: Teams will split points in Round Robin matches whereas Super Over will be used in Playoffs"}
+{"id": "2556040f-da77-49d9-81b3-7af12cae39ec", "sentence": "Super Over: 1"}
+{"id": "7e76dbec-483d-427e-8192-ed38a91f7775", "sentence": "Will be used only in playoff matches"}
+{"id": "7b43a4d9-8667-496a-bbdf-bcad078211ec", "sentence": "2"}
+{"id": "6f7f0249-96db-4767-8511-b9c21b9d5b48", "sentence": "Super Over does not require a new Toss"}
+{"id": "51397935-c252-4188-b8fb-2793aa1ac628", "sentence": "3"}
+{"id": "fca93cfe-d4d1-420d-8706-114b7b4518f8", "sentence": "The team batting second in the main match will bat first in the Super Over"}
+{"id": "af6dd874-ed6e-4c12-88c2-44b5c1229fbe", "sentence": "4"}
+{"id": "1dbce3f4-d171-434f-bcb8-f036fbd3e632", "sentence": "Each team MUST nominate 1 bowler to bowl and 3 batters to bat prior to the start of the Super Over"}
+{"id": "dde64fac-5853-413e-8cd8-55ed072300a3", "sentence": "A nominated Bowler can be one of the three batters"}
+{"id": "9f46f331-2d06-448b-a3ea-94eb5324d026", "sentence": "5"}
+{"id": "9c83ea22-bcb7-44cf-927d-78e33b025b96", "sentence": "One of the balls used in the match will be used in super over"}
+{"id": "b80879b9-6956-4976-944f-7b924f58cdc1", "sentence": "Umpires will decide which ball (from either innings) to use"}
+{"id": "d4692c06-0775-4da0-aae6-db5b6a870c13", "sentence": "6"}
+{"id": "d9ff5503-53b1-4a01-9fbd-d5e627bae629", "sentence": "No last-man batting will be allowed for Super Over i.e., if two batters are out then the team is considered all out for Super Over"}
+{"id": "a6d05c45-f287-4751-bb54-d0045212c67d", "sentence": "7"}
+{"id": "eb110ff5-804e-4a03-adaf-17e76348e5e5", "sentence": "Super Over Runs will not be counted towards Net Run Rate 8"}
+{"id": "ec6c5efa-e7d2-45ad-a230-954b33acd18b", "sentence": "The team scoring the maximum runs in the Super Over is declared the winner of the match"}
+{"id": "b62d3ae9-0c90-4c1c-bd6a-00495ab4d917", "sentence": "Second Super Over 1"}
+{"id": "8414f842-7c85-444b-9a21-fecca69d3689", "sentence": "If both teams score the same number of runs after the first Super Over, then a Second Super Over will be played"}
+{"id": "5f38874a-2eec-4825-bfd1-dd94af68181f", "sentence": "2"}
+{"id": "6c846f8d-8457-4013-8fb2-9ff79656224f", "sentence": "Batsmen who got out in the first Super Over should not be represented in the Second Super Over"}
+{"id": "eb1cd0de-35ec-4f2d-a5a1-dfc986f1fa70", "sentence": "3"}
+{"id": "b5824313-c44e-4f75-8fea-c17b79688029", "sentence": "The bowler who bowled the first Super Over cannot bowl in the second super over"}
+{"id": "10a410c8-fb27-4b9a-8780-ddb0bcb89147", "sentence": "4"}
+{"id": "1008515c-db8d-4c35-b670-72e7033d0a14", "sentence": "The team batting second in the first Super Over will bat first in the Second Super Over"}
+{"id": "15ee18f7-9c74-4ec3-91c6-3c335df354aa", "sentence": "Tie after Second Super Over: If scores are still tied after the Second Super Over, then the following criteria will be applied to derive the result for the match"}
+{"id": "ed5d7659-d76c-41c4-918a-5c1a96dcc185", "sentence": "Page 12 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 1"}
+{"id": "89eff1d5-7dff-4887-b4c6-97006b648121", "sentence": "The team with the highest number of boundaries (both 6\u2019s and 4\u2019s) combined from the main match and both the Super Overs are declared the winner of the match"}
+{"id": "e662311a-3b55-4cde-a4ea-ac971f68b4b1", "sentence": "2"}
+{"id": "8673d6a1-a47c-4fa8-94c5-2713b5b8b673", "sentence": "If still tied after applying the above rule, the team with the highest number of boundaries (both 6\u2019s and 4\u2019s) from the main match (i.e., not including the Super Overs) is declared the winner of the match"}
+{"id": "eb70f1d4-f641-43d1-a133-8a17c4f7f061", "sentence": "3"}
+{"id": "0c129d46-a9d4-47a5-aa86-ce6f522199a6", "sentence": "If still tied, a count-back from the final ball of the Second Super Over shall be conducted"}
+{"id": "03ab9905-7066-43d5-a419-2631f29d1d24", "sentence": "The team with the higher-scoring delivery is declared the winner of the match"}
+{"id": "6612da38-d789-4050-91c3-ea43874dce77", "sentence": "Runs scored from illegal deliveries count towards the total for the following legal delivery"}
+{"id": "71d08288-3aff-443e-a917-d58526eba281", "sentence": "Example for applying count-back Scenario 1: Team 1 wins because of 4th ball as Team 1 scored more runs than Team 2 Ball Team Team Ball 1 1 Ball 2 2 Ball 6 4 Ball 4 2 Ball 4 1 Ball 1 4 Scenario 2: Team 1 wins, because Team 1 has a total score of 4 (2+1+1) compared to Team 2 score of 3 (2+1+0) Ball Team 1 Runs Team 2 Runs Ball 6 1 1 Ball 5 2 2 Ball 4 2 2 Ball 4 (Wide) 1 0 Ball 3 4 2 Ball 2 4 1 Ball 1 1 4 Scenario 3: Still equal then higher ranked team will progress to the next round"}
+{"id": "36e928ae-6eb1-498e-a4f5-996f21b94316", "sentence": "Ball Team Team Ball 1 1 Ball 2 2 Ball 6 6 Ball 4 4 Ball 1 1 Page 13 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 Ball 1 1 12 Start Time and Duration ACL matches are scheduled in EST/EDT time zones only"}
+{"id": "8727e65e-d6b8-4c01-bb91-1ca7ba08778f", "sentence": "ACL reserves the right to alter the match schedule including match start time, with or without notice to the teams"}
+{"id": "4cf0df2c-298b-42ae-b521-5742fdae9eb8", "sentence": "The scheduled start time of all matches will be posted on the ACL website schedule page"}
+{"id": "a1904392-ec87-4cdf-845f-ee5c3ecdcc96", "sentence": "It is important that teams adhere to scheduled match durations to avoid any penalties from ACL (Please refer to ACL Code of Conduct document for details)"}
+{"id": "a8603b6c-17a9-447e-93f9-5583b3d3378a", "sentence": "13 Umpiring All teams MUST umpire in ACL tournaments as assigned by ACL"}
+{"id": "c1878669-3d89-4ed1-adba-3b0efdba2430", "sentence": "The umpiring team should assign 2 umpires to the ACL by Thursday 9 pm for the weekend games"}
+{"id": "59a8d36a-983c-4aa8-9a41-3a4ccd51b474", "sentence": "If an umpire fails to show up for an assigned match (start time CUT OFF time), ACL will impose a penalty on the umpiring team as per the published Code of Conduct"}
+{"id": "f4826e4e-98eb-495a-9b48-50c979aef6e2", "sentence": "Captains MUST report the incident to ACL via email to info@atlantacricketleague.org with details of Match#, Ground, and Umpire details"}
+{"id": "ec8dd097-08bf-4a33-bb4e-ba17a0c0aae6", "sentence": "A repeated violation of umpiring responsibilities could lead to the disqualification of the team from the ACL league and cannot participate in any matches for the remainder of the season"}
+{"id": "c7521ab4-4940-4892-b08a-11f6ad70c8c0", "sentence": "The decision on the penalty will be made by ACL and subject to evaluation and inquiry into the context"}
+{"id": "c51428ca-343c-4338-ab59-3ffc6688109b", "sentence": "The assigned umpires MUST arrive 15 minutes prior to the scheduled match start time on the day of the match"}
+{"id": "764c8259-f00d-43d9-8734-87a4b8347309", "sentence": "In case an umpire arrives 15 minutes after the start time, the umpiring team will be penalized"}
+{"id": "e8a90593-74c0-4276-99a3-5cb7bf51d959", "sentence": "Either team captain must file a written complaint with the ACL"}
+{"id": "066d5a5a-a6e9-4594-99f6-d47bc4404d6a", "sentence": "ACL shall consider the track record of the team in adjudicating penalties"}
+{"id": "d0660d31-12a3-42f7-9890-9cacf774f827", "sentence": "ACL Assigned umpires are recommended to rotate after every over"}
+{"id": "1ecb8dc4-d984-44b2-86b9-5cb51a5fad05", "sentence": "In the event of one umpire standing as the main umpire for all overs, he/she must remain as the main umpire for the entire match, and the same applies to the leg umpire"}
+{"id": "ddd737c7-badc-4f8f-bb74-550244580e1c", "sentence": "In the absence of an assigned umpire(s), teams should consider the following options: Teams should discuss with the weekend coordinator and provide their own umpires, be agreeable to the opposite captains, and play the match or call off the match and inform ACL"}
+{"id": "3c7cd285-b6bb-4699-880a-9cb3a402cf49", "sentence": "If only one umpire arrives from the umpiring, any batting team player can be used as a leg umpire in the interest of completing the scheduled match"}
+{"id": "d874d1e8-8a19-479b-9ea8-e61ea4f6926d", "sentence": "ACL will penalize the umpiring team for failing to send 2 umpires"}
+{"id": "f04d1548-75dd-4f32-9298-2a39684939a9", "sentence": "If the leg umpire from the batting team appears to have made a clear error in judgment, then the neutral umpire has the authority to reverse that decision"}
+{"id": "96c92da8-6c21-4e70-8c42-e4af820144ae", "sentence": "If the neutral umpire finds the square leg umpire from the batting team to be incompetent, he/she may request for replacement"}
+{"id": "409ab424-b3c6-485e-b2d1-3126aaec838b", "sentence": "Page 14 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 Team captains may lodge a complaint with ACL in case they are not satisfied with the standard of umpiring"}
+{"id": "0e2a9368-965c-4a2d-93f5-d205154a7c48", "sentence": "No one is allowed on the field during play other than the batters, the fielding side, and the umpires"}
+{"id": "174b65ce-18d9-4980-a6f5-51ad18069f82", "sentence": "In case of an injury or substitution or bringing in drinks or equipment, the umpire must be notified"}
+{"id": "c4c37cc4-21c5-4563-b32c-da7cc725322b", "sentence": "No one other than the team captain can communicate with the umpire in the event of a clarification based on the context"}
+{"id": "b0c72c92-015d-4dc3-baf9-2c68a93f3087", "sentence": "Undermining or threatening ACL-assigned umpires, either verbally, by signs, and/or by physical attack will be considered a serious offense as laid out in the Code of Conduct document"}
+{"id": "bf06d1ce-12ef-4556-a752-ef2ceaf2c066", "sentence": "The penalty could lead to disqualifying the player(s) and/or the team for a certain number of matches or from the remainder of the ACL season"}
+{"id": "b5de48c8-6e53-4746-a976-0531f42d0677", "sentence": "Umpires MUST keep the rules document handy"}
+{"id": "9eb08931-34d6-48bc-b9ab-00f4e3673e44", "sentence": "14 Toss The Toss MUST be conducted no later than 15 minutes before the match start time if both teams are present on the ground"}
+{"id": "0043e6b5-8f75-4495-9086-e27523b1cccd", "sentence": "Both teams must submit playing 11 (T20) or 9 (F15) before the toss including any player names who may be joining late"}
+{"id": "c21187c3-949d-4e0a-a312-96d0842f3787", "sentence": "Teams cannot change playing 11 (T20) or 9 (F15) after the toss is completed"}
+{"id": "9a4d646e-8838-4d25-b5e2-5b06150c3dd7", "sentence": "F15 Minimum Players: A team MUST have a minimum of 6 players to start the match"}
+{"id": "5bbfab86-4b00-4bd7-86b5-d153f9d536d6", "sentence": "If Team A is not ready or does not have a minimum 6 players on the field, Team A will lose the Toss to Team B by default assuming Team B is ready and have a minimum 6 players on the field"}
+{"id": "ac1a3242-ca3d-4895-8683-e7f9f7ca874b", "sentence": "F15 Players Joining Late: Umpires should be informed before the toss if any players in Playing 9 are joining late"}
+{"id": "ba303c4d-10b0-4e4d-947f-ab2498e11d54", "sentence": "Late joining players must be at the ground before the start of the 6th over and umpires should be informed upon arrival"}
+{"id": "04ef1a82-4525-4477-9949-7ddf5311e67d", "sentence": "A player in playing 9, failing to join in time will not be allowed to bat or bowl but will be allowed to field as a substitute"}
+{"id": "f4a5e86a-cbb6-420c-912d-2199e1a0db55", "sentence": "Any player in the team roster can field as a substitute until the arrival of a player in playing 9"}
+{"id": "11a02f76-fc6f-40b1-8ec2-53c5d5478a7e", "sentence": "T20 Minimum Players: A team MUST have a minimum of 8 players to start the match"}
+{"id": "bdf08ae9-9dc1-4bf3-817b-6dc9b1211938", "sentence": "If Team A is not ready or does not have a minimum of 8 players on the field, Team A will lose the Toss to Team B by default assuming Team B is ready and has a minimum of 8 players on the field"}
+{"id": "c0cebb1f-4b26-4d47-863b-24e8419314ce", "sentence": "T20 Players Joining Late: Umpires should be informed before toss if any players in Playing 11 are joining late"}
+{"id": "efe3ef86-0f59-42fa-b1e2-8bd6f5f43a43", "sentence": "Late joining players must be at the ground before the start of the 8th over and umpires should be informed upon arrival"}
+{"id": "a938b9e2-e0d4-44ab-9974-5e1a663f1e5f", "sentence": "A player in playing 11, failing to join in time will not be allowed to bat or bowl but will be allowed to field as a substitute"}
+{"id": "270cdc98-8400-4a4a-9283-a3457205b517", "sentence": "Any player in the team roster can field as a substitute until the arrival of a player in playing 11"}
+{"id": "ee27c0ae-3f39-45ae-9c19-a83a59a10a9a", "sentence": "Teams not Ready: If both teams are not ready, umpires must implement shortened match rules and should confirm the same with the ACL weekend coordinator"}
+{"id": "7019b7f0-8d9a-4512-8a16-0cab2fbf1ea7", "sentence": "(Refer to section 15 Delayed Start) Decision: Immediately following the toss, the toss-winning captain MUST communicate the decision to bat or bowl to umpires and the opposition captain"}
+{"id": "0b916924-3103-4522-b372-2657fa7b0e20", "sentence": "Page 15 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 Report: The umpire MUST document the incidents and violations in the Match Report including any delays in match start"}
+{"id": "12b179d6-4136-46e9-9ed9-8773fb420ddb", "sentence": "15 Delayed Start After the Toss, if a team is not ready to play at the scheduled start time, the defaulting team shall lose one over for every 5-minute delay up to a max of 30 minutes"}
+{"id": "17e7f157-872a-4fab-9830-5ec02405d572", "sentence": "After the Toss, if Team A does not start the match within 30 minutes of the scheduled start time, then it will be considered forfeit and Team B will win the match and the result will be declared after consulting with the weekend coordinator"}
+{"id": "2841cfc2-ed1d-4179-8a22-0eeadfd4d207", "sentence": "After the Toss, if both teams do not start the match within 30 minutes of scheduled start time, the overs will be reduced for both teams"}
+{"id": "24a15ef2-8c7d-421a-bd10-13f1d3d1ad3e", "sentence": "Lost Time (minutes) Overs to Reduce (per Inning) 1 - 10 1 11 - 20 2 21 - 30 3 31 - 40 4 41 - 50 5 51 - 60 6 After the Toss, if both teams are not ready to play 60 minutes after the scheduled start time, then the match will be counted as a loss for both teams, and no points will be awarded to both teams"}
+{"id": "74b2cccd-b381-4b3a-bf1d-ee6703ec69c6", "sentence": "Before the Toss, in case of a delayed start, the umpire and both the captains should agree to the start time of the match and the number of overs to be bowled per innings"}
+{"id": "ff2d679c-a68c-472e-98a8-54f53a36562b", "sentence": "\u2013 If there is no agreement, then the Weekend Coordinator will direct umpires on how many overs are to be played"}
+{"id": "679d580d-4df7-491a-9311-955187a52c4b", "sentence": "If it is a reserved field, then the reservation time needs to be considered"}
+{"id": "ef3d2d55-8664-41ca-8410-ba20b0a8e753", "sentence": "The maximum overs per inning cannot be modified once the match has started"}
+{"id": "66727176-5d90-40cc-8358-5cdb91fb872d", "sentence": "At least one party (any playing team captain or one of the umpires) should consult with the Weekend Coordinator of ACL to finalize any changes to the delayed start"}
+{"id": "a50e066f-c4a1-4389-8e81-1f3869e5371c", "sentence": "The umpire MUST document the incidents and violations in the Match Report including any delays in match start"}
+{"id": "fff53872-048d-4da6-a305-9d4ae5311d7d", "sentence": "16 Completion of Overs and Slow Over Rate Under normal circumstances, timely start and without any rain delays and interruptions, all teams must bowl their allotted overs in the scheduled time as follows: Page 16 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 Team bowling first must finish the allotted overs (which accounts for 5 mins per over)"}
+{"id": "35df8be6-e771-49f4-9950-fa2ae3160d80", "sentence": "The last over of the innings MUST be in progress at the mentioned time to avoid any penalty"}
+{"id": "d8826aae-8619-452a-a243-f06ddb36a64d", "sentence": "F15: 15 overs in 75 minutes T20: 20 overs in 100 minutes Umpires may remind teams of slow over rate during the drink break"}
+{"id": "24e478c7-77cb-4a99-a4eb-337cf2377e14", "sentence": "The bowling team captain should be advised by umpires to consider the time remaining and the overs to be bowled to make necessary adjustments"}
+{"id": "00493ecb-0cd4-4f58-93b0-6287075b259a", "sentence": "A monetary penalty will be levied on the defaulting team for slow over rate as per time recorded in ACL Scoring App"}
+{"id": "76ec839c-6425-43e2-9547-5f2705aff06b", "sentence": "The second innings must start within 10 minutes after the first innings is completed"}
+{"id": "2eddd725-c253-4bdf-89b7-caafe976f9e0", "sentence": "If a team bowling second fails to complete their allotted overs in the scheduled time (excluding drinks break), they will be penalized by ACL"}
+{"id": "881fd3b7-3853-42bc-817d-d07fb5ae9b6e", "sentence": "(Please refer to the ACL Code of Conduct document for details)"}
+{"id": "b5a221d0-172e-43da-b5f7-2277a7d2f0ea", "sentence": "17 Bad Light Umpires have the authority to stop or continue play if an appeal is made by the batters for bad light or rain"}
+{"id": "054c02a6-40e1-4031-b034-50a5b5697c98", "sentence": "The umpire can direct the match to continue beyond the scheduled end time (3 hours after the start time) to have a valid result of the match, if no additional match is scheduled at that ground for the day"}
+{"id": "e3b2be98-0a58-4e8a-b934-d77cd776a103", "sentence": "Umpires are solely responsible for ensuring that no side intentionally or unintentionally causes significant delay to the match in progress"}
+{"id": "8537036b-eafd-4be7-8eaa-a9d52a01c388", "sentence": "Umpires MUST take the delays due to rain, bad light, lost ball, and injury on the field into consideration, before deciding if a bowling side needs to be penalized for slow over-rate"}
+{"id": "e450b6f9-0461-458a-a834-bd3f99edbf9b", "sentence": "The above times will be adjusted accordingly in case of a delayed start due to any reason"}
+{"id": "a642432a-3af0-4fbf-87e2-5f4a2acacd64", "sentence": "(Refer to section 15 Delayed Start) 18 Rain Rules 18.1 Round Robin Matches Rain-Out: Rainout is defined as an interrupted and/or abandoned match due to rain or wet ground conditions"}
+{"id": "ef01b3c1-a59d-4e9b-87ec-ffadb63b83b8", "sentence": "Decision Makers: Team captains and Umpires Result: No Result Points: Split between both the team's Reschedule: No rescheduling of the match during Round Robin Wash-Out: Wash Out is defined as ACL canceling all the matches for the scheduled day"}
+{"id": "5672f7ca-0b17-4f28-b9ec-3cb211c4d77e", "sentence": "Decision Makers: ACL Result: No Result, if not rescheduled Points: Split between both the teams., if not rescheduled Page 17 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 Reschedule: ACL 18.2 Playoff Matches Only Reserve Day: If the play is stopped due to rain and/or unplayable ground conditions or due to unavoidable circumstances caused by third parties (like ground authorities), then the reserve day will be used"}
+{"id": "b105a814-9c17-4444-8cc3-018227fa0ca5", "sentence": "If a playoff match cannot be scheduled even on a reserve day, then the higher-ranked team will advance unless it is the Finals where both finalists will be declared as Winners"}
+{"id": "15e93a6a-fe2f-4876-9ec8-8862d7e1b625", "sentence": "18.3 Rain Interrupted Matches Reduced overs: In the event of delayed match start due to rain or wet ground conditions, umpires will finalize reduced overs for the match to be played based on lost time"}
+{"id": "dd91bfa9-f0f8-4e28-b5b7-69b87b1e9ae6", "sentence": "Refer to section 10.1 OVERS - Minimum Overs Requirement Rule in addition to table below"}
+{"id": "18fdc5c9-2af1-4137-b5ae-ca976cff0e52", "sentence": "Lost Time (minutes) Overs to Reduce (per Inning) 1 - 10 1 11 - 20 2 21 - 30 3 31 - 40 4 41 - 50 5 51 - 60 6 Rain before the start of the match: Captains of both Home and Visiting teams plus the assigned umpires should be at the ground before start time, no matter how bad the weather is unless there is an announcement by ACL canceling the match"}
+{"id": "a2268591-90c8-4f3b-8903-fb9b0bfb753a", "sentence": "If both teams do not show up, the ACL committee will hand out a penalty which it deems fit for the situation"}
+{"id": "2a757fda-17e8-4279-a139-0c11a986d8ee", "sentence": "Umpires will decide the start time of the match, the number of overs per innings based on the playing conditions and ground availability after informing the weekend coordinator"}
+{"id": "870360b5-c616-4a41-b1a1-7190e26e1f3a", "sentence": "If minimum overs (refer to Section 10.1 OVERS) cannot be played due to constraints, Umpires can rule out play on that day as \u201crained out\u201d and teams will split points during round round-robin stage"}
+{"id": "b1a90cc6-765e-486c-bc9b-b0ae966c8890", "sentence": "During playoffs, teams MUST be ready to play on reserve day"}
+{"id": "260f6ffc-3821-464d-8467-f8edf1151914", "sentence": "On a Reserve Day for Playoffs, the match must be replayed - including a new Toss"}
+{"id": "9bb8cef6-e5d5-47fb-ae7e-f1c899b9be97", "sentence": "Play may be extended beyond the allotted time if umpires agree, and if ground reservation is available"}
+{"id": "896881db-8066-4003-bdc9-b5b198235451", "sentence": "Rain interruption after the start of the match: Page 18 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 Umpires must evaluate and decide whether the match can be continued or not"}
+{"id": "1cb5a27b-6459-4e87-b2cf-5cd6ce05abbc", "sentence": "The various factors that should be considered are - Condition of playing surface Safety of the players Number of minutes delayed Ground reservation availability If the umpires feel that the match cannot be continued, they can call off the match, and declare the match result as \u201cNO RESULT\u201d"}
+{"id": "755d9142-9aba-4131-9311-3b278296d34e", "sentence": "During playoffs, teams MUST be ready to play on reserve day"}
+{"id": "d74bc11d-a4f8-467a-b6d6-3cd22540a13b", "sentence": "19 Playing Surfaces All matches must be played on surfaces approved by ACL"}
+{"id": "de0d441f-f00d-48e9-8bdb-dd051eeb2482", "sentence": "These include grass, or clay surfaces assigned at various baseball/softball/multipurpose fields across metro Atlanta"}
+{"id": "30781128-c4b2-4c2b-a5b2-51f00b2272bd", "sentence": "ACL will reserve the right to decide on the grounds/fields to be used for scheduled matches"}
+{"id": "6f2adc58-dbc5-4be5-adea-eca4c6d4c6af", "sentence": "The clay surface in baseball/softball fields MUST be used as Pitch"}
+{"id": "557b1c59-af18-4c7e-9e45-c07ebb91be4c", "sentence": "Under rare and unavoidable circumstances, the grass surface can be used as pitch"}
+{"id": "3718480e-2fe2-4cc8-9a18-0e95b43e59a5", "sentence": "If the umpires feel that the surface is not fit for the play due to any reason (including surface deterioration due to rain or unavailability or other causes), they may call off the match and declare the match as \u201cNo Result\u201d"}
+{"id": "f2fe3174-05f3-4336-8014-eb32cda8e44a", "sentence": "If ACL reassigns the match to another field, both team captains and umpires require consent to play the match"}
+{"id": "8b2280c9-006d-4dda-b88c-9790fe711bc9", "sentence": "Any changes to ground will result in a fresh match start including toss"}
+{"id": "ff1f40fd-756f-4404-807e-7d66b9926e3f", "sentence": "If no consensus was reached, the match will be declared as \u201cNo Result\u201d"}
+{"id": "b9b5ce56-7d9c-466b-94c2-534a25923938", "sentence": "ACL coordinator may provide a list of alternate grounds, subject to availability, in the event of an unforeseen circumstances, such as pitch/surface deterioration, unavailability of schedule field, field locked, etc., Both teams can clean the pitch once each, at the start of their respective innings (batting) with the use of a broom or bat or any permissible cleaning methods eg"}
+{"id": "405ca51f-d4a1-4fc4-a0d4-8c01263fc135", "sentence": "wood block, hand with mutual understanding of the captains and Umpire"}
+{"id": "e893ac61-b573-4a0b-87e1-504b733fe771", "sentence": "Not acceptable methods : Using a blower in baseball fields, Rake"}
+{"id": "22a383a8-5e26-4289-b18d-8e56aae3b0b6", "sentence": "20 Field Setup The HOME team is responsible for field setup including pitch and crease markings, boundary, and inner circle (where applicable) set up as per ACL guidelines before the start time of the match"}
+{"id": "f9d53321-dec7-4015-8a69-3cf849c8ffd0", "sentence": "Each match in the schedule will have Home and visiting team names along with Umpiring Team names"}
+{"id": "7c735399-826b-4ab1-b334-3dad9411839b", "sentence": "Refer to Ground Categories and Setup section under Documents page https://atlantacricketleague.org/Home/Download Page 19 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 ACL strongly recommends visiting teams to be present at the time of field setup to validate, if required"}
+{"id": "0d2ce9f1-05df-415c-87ed-d9cadd4c9b93", "sentence": "Umpires\u2019 decision will be final in the event of a field setup dispute between teams"}
+{"id": "8dad2c49-d2dc-4817-9bc1-12131c6f548a", "sentence": "In case of natural obstructions (water puddles, shape, and restrictions etc.,) on the assigned field, teams and umpires can decide on the declared runs for that match only"}
+{"id": "c329bc34-eef5-44e7-8b48-4a38f8fa8f0a", "sentence": "Umpires MUST provide the details with pictures in their \u201cMatch Report\u201d Field setup can be verified by both captains and umpire BEFORE the start of the match, and cannot be modified once the match starts, under any circumstances"}
+{"id": "25b5c2c7-0fef-4a47-8113-d58cd329768e", "sentence": "Batting side stumps should be placed at a minimum of 20 ft and a maximum of 30 ft distance, from the backside fence"}
+{"id": "e32eb892-1f09-4dc2-ba49-019876f98c3a", "sentence": "21 Cricket Rules 21.1 Fielding Restrictions 21.1.1 Max Fielders \u25cf F15 Only: There should not be more than 4 fielders on any side of the field (Offside/Leg side) at any point of time excluding wicket keeper and bowler"}
+{"id": "a0db6ee6-a5de-46b7-bcd3-ff52699d8e0b", "sentence": "Violation will result in a No ball"}
+{"id": "7bbd736f-7d2b-4b55-b3cc-8e3f3992280d", "sentence": "\u25cf T20 Only: There should be no more than 5 fielders on the leg side at any given time"}
+{"id": "a59b05eb-4b66-4f95-b1c7-1ba0dc3812f0", "sentence": "And not more than 2 fielders behind the square on the leg side"}
+{"id": "d452d5fe-d8bc-4d0f-a944-e723d47d1b13", "sentence": "Violation will result in a No ball"}
+{"id": "93622ea2-d382-4da9-89b1-d5bfc0248757", "sentence": "\u25cf F15 & T20 : During non-power play overs, a maximum of five players are permitted outside the inner circle.Violation will result in a No ball"}
+{"id": "fd30b44d-1a0b-49c4-bd93-174a7e7210df", "sentence": "21.1.2 Power Play \u25cf F15 & T20 (where any power play apply): During power play overs only 2 fielders are allowed outside of the inner circle"}
+{"id": "96c9a77d-24d4-4e7d-a6fe-2ad8ffb34716", "sentence": "Maximum 2 fielder limit applies irrespective of the number of players playing in the fielding side"}
+{"id": "1d58bea0-5a0b-4a97-b75b-a3910326bfa6", "sentence": "Violation will result in a No ball"}
+{"id": "8fdeb788-1c15-4b10-b35e-c7f30ea764bc", "sentence": "Power play overs will be adjusted accordingly in a shortened match"}
+{"id": "edf336eb-c21e-40f0-9953-6043ee723b5b", "sentence": "21.2 Dead Ball If the bowler accidentally drops the ball before delivery, or for any reason it does not leave their hand, the umpire must call it a dead ball"}
+{"id": "48079e63-0a25-4227-bf09-3b7c637e9d9b", "sentence": "21.3 When Ball is dead When the ball is finally settled in the hands of the wicket-keeper or at the bowler end , it becomes dead"}
+{"id": "6c9ad995-67db-418a-8c06-d3b6647f55e6", "sentence": "21.4 Wide Ball 21.4.1 Leg side wide 1"}
+{"id": "8c4efb4e-cf0d-4ec1-92d0-34c3534331b4", "sentence": "A delivery that passes down the leg side of the wicket and behind the striker shall be called a wide"}
+{"id": "29eee03e-e533-4534-873b-fd1778bc6aff", "sentence": "A delivery passing between the striker and the leg stump is not wide"}
+{"id": "300bf7ca-da1b-4327-a423-8aac9f001157", "sentence": "Page 20 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 21.4.2 Off side wide 1"}
+{"id": "86bc3aa9-d402-4782-a21e-66e5465210c3", "sentence": "Standard Batting Stance a"}
+{"id": "d861876c-3521-40dc-b28b-de855ed0165e", "sentence": "A delivery shall be called a wide if the ball passes above or outside the wide guideline while the batter is in a normal standard batting stance"}
+{"id": "36cc4510-9978-46f6-895c-c0231f0d74da", "sentence": "b"}
+{"id": "e1fe1be0-1137-4e7f-aa78-9e12612c0e25", "sentence": "A delivery shall be called Wide if the ball passes above or outside the \u201cWide Guideline\u201d irrespective of the batter movement"}
+{"id": "2c5a52d8-212d-4f08-8ebc-3adb1cc2802d", "sentence": "2"}
+{"id": "73018c14-7494-4f86-87cd-328601e87454", "sentence": "Altered Stance a"}
+{"id": "5aa051ae-1e8b-4a62-8491-7b8739570fdb", "sentence": "If the batter significantly changes their stance before the ball is bowled (e.g., takes guard outside off stump, shuffles far toward the off side), the umpire may adjust the off-side wide guideline proportionally up to the return crease"}
+{"id": "16314bac-01ea-4da1-8cf7-13be804a1353", "sentence": "3"}
+{"id": "a0e6765d-1607-481b-8f5c-17f6fe2f330a", "sentence": "Wide of Return Crease a"}
+{"id": "6851205e-e564-43b8-9759-3ea2d50e1bf2", "sentence": "If the ball passes outside the return crease on the off side, it shall be called a wide, regardless of the striker's position"}
+{"id": "32f82072-ad1e-4063-8e32-7d08847d6108", "sentence": "Page 21 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 21.4.3 Height wide 1) A delivery that passes over the head of the batter standing upright at the popping crease, without the batter making contact with the bat, shall be called a wide"}
+{"id": "d40db50b-53cc-4779-b417-ab2fb7457e30", "sentence": "2) The bowler is also given a warning for the bouncer"}
+{"id": "0d1037d2-726a-4ea3-aca9-cb8a88da8634", "sentence": "3) Square leg umpire will judge the height and signal wide"}
+{"id": "2f61e3c1-4a0e-4535-9470-c52a38498fbd", "sentence": "If the square leg umpire is unsighted or does not provide a signal for whatever reason, then the main umpire can use his best judgment to signal wide"}
+{"id": "2ab608b0-2ef7-4c00-97c7-2cf5ca780789", "sentence": "21.4.4 Switch Hit and Reverse Sweep 1"}
+{"id": "40a20fca-7fc3-44ac-8cd7-7c5e3fb47626", "sentence": "Wide Rule Modification \u25cb When a batter signals their intent to play a switch hit or reverse sweep by taking a clear position for the shot, the wide guidelines shall apply equally to both sides of the wicket and both sides are considered off-sides"}
+{"id": "5e1ccb1b-8675-4f17-a83f-7dfc8bbd4926", "sentence": "This replaces the standard leg side wide rule"}
+{"id": "dddc3311-c9a2-4068-87e4-bd66eb5cad38", "sentence": "\u25cb If the batter prepares for but then abandons a switch hit or reverse sweep, the expanded wide guidelines still apply"}
+{"id": "367c0d2d-4c72-4205-abd8-713e23b54edd", "sentence": "Page 22 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 21.4.5 Out from a wide ball 1"}
+{"id": "0e98b43c-0453-435f-b079-e9fedd02cb94", "sentence": "A batter may be out on a wide ball for Hit Wicket, Obstructing the Field, Run Out, or Stumped"}
+{"id": "e61d8c6a-3f42-4410-91d4-660ff482059d", "sentence": "21.5 No Ball 21.5.1 General Rules 1"}
+{"id": "19fb7ec6-10d2-4402-beac-2e0fb84d9af5", "sentence": "When Umpires call a no-ball a"}
+{"id": "c540195e-bab0-4769-82d1-ca65ff97d2b6", "sentence": "The 1-run penalty is scored as a \"No-ball extra.\" b"}
+{"id": "9eb99d76-1f54-40af-a054-e02b9417c4c9", "sentence": "Any runs completed by the batters or boundary allowances are credited to the striker when the batter strikes the ball or as No-ball extras"}
+{"id": "e7a61b19-71c1-4ded-a620-05e0743f7139", "sentence": "c"}
+{"id": "2b07bfa7-483c-4684-b4cc-27cd4f52549e", "sentence": "The ball is not counted as one for the over"}
+{"id": "7e8366e0-94a5-4fbf-9a54-21e8c7e71651", "sentence": "2"}
+{"id": "54f7e4c8-7096-4221-8baa-68c30f41d827", "sentence": "The ball is still in play after a No-ball"}
+{"id": "b2149bbe-21c8-4cbb-8c56-27442f5b81c6", "sentence": "3"}
+{"id": "c33ec3ba-7507-4f17-bab2-de138d6fe551", "sentence": "No-ball Overrides Wide: A No-ball call always overrides a Wide"}
+{"id": "6cfa114e-7c88-408a-823e-e057eb8b348e", "sentence": "4"}
+{"id": "0c72fb47-30ed-4a7e-94f4-7f29d167357e", "sentence": "Out from a No-ball: A batter is NOT out on a No-ball except in the following situations - handling the ball, hitting the ball twice, obstructing the field, or run out"}
+{"id": "d740bc43-25b5-4dab-82a4-292927c3c707", "sentence": "5"}
+{"id": "5a0b0d63-41af-44c3-95df-e638e7eb7041", "sentence": "New Batter After Catch: The new batter always faces the next ball, even if the batters crossed before the catch was completed"}
+{"id": "e0eedd1d-b13c-4d68-847a-fcffc56e254a", "sentence": "(unless if the over has ended) 21.5.2 Fair Delivery 1"}
+{"id": "c7857d4a-997b-4194-8223-475af47060c1", "sentence": "Fair Arm Action a"}
+{"id": "10d1a358-01d5-40ea-a5ba-5b2b311c51f0", "sentence": "The ball can't be thrown as explained in the following section"}
+{"id": "c8cb196a-e85d-4cc2-994b-47fa1566e2f5", "sentence": "(refer to Throwing section) b"}
+{"id": "4f9fb9b3-4eb1-4f37-b2b6-ca413bc41bea", "sentence": "Wrist movement (flexing, rotating) is allowed"}
+{"id": "29c37caa-633f-44e0-b24d-19a79050ab8e", "sentence": "2"}
+{"id": "de288a33-c2b7-443f-b15a-efcecdf2f131", "sentence": "Foot Placement a"}
+{"id": "a0c281ba-664f-44b7-b103-8f877ab8877c", "sentence": "In the delivery stride, some part of the bowler's front foot must land with some part of the foot whether grounded or raised behind the popping crease"}
+{"id": "63e91add-44d1-468d-a16c-856078ae04a6", "sentence": "Page 23 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 b"}
+{"id": "f12cf49a-80c4-4553-8055-fd2bf9617281", "sentence": "The front foot must not either touch or land on the other side of the imaginary line connecting the middle stump on either end"}
+{"id": "f0cc1c81-e390-4d63-b4ad-d2114c07ccaa", "sentence": "c"}
+{"id": "28186597-f15b-40b8-9a7f-eadbd81cff52", "sentence": "The back foot must land within the return crease and not touch the return crease"}
+{"id": "b2bdb761-0647-4f36-8c05-c46aae6e5a90", "sentence": "3"}
+{"id": "fb9a9752-0fd8-43ff-a132-87c66b0033dc", "sentence": "Mode of Delivery: The umpire shall confirm whether the bowler intends to bowl right-handed or left-handed, over or round the wicket, and shall inform the batter"}
+{"id": "459b4f23-9cb3-4e7d-b9f5-7d83e34b3b8c", "sentence": "Changing without notifying the umpire is unfair and results in a No-ball"}
+{"id": "44ba453c-666b-4dc3-93e5-dd105adebabe", "sentence": "4"}
+{"id": "d23eb03c-421f-420d-b138-adccf653c586", "sentence": "No Underarm Bowling: Underarm bowling is illegal and always a No-ball"}
+{"id": "0c60e86e-a740-457a-b519-d47c8ae7da9e", "sentence": "21.5.3 Free Hit 1"}
+{"id": "ba6664db-a3db-434f-888e-94613166dfb2", "sentence": "All No-balls result in a free hit for the batting team"}
+{"id": "b1ed542b-9729-4ae8-b38b-b518b52260e7", "sentence": "The batter can only be out by handling the ball, hitting the ball twice, obstructing the field, or run out"}
+{"id": "e7407f23-6c96-4068-b525-153a65137fc1", "sentence": "2"}
+{"id": "ebe664fc-e259-42ad-8560-76181af47a3f", "sentence": "Fielding Changes: The fielding team can only change positions on a free hit if the batters switch ends or new batter come into bat"}
+{"id": "6692e50d-c15c-41de-9f4e-cfe192975bc2", "sentence": "Page 24 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 21.5.4 Dangerous Delivery No Ball A ball is considered dangerous when the following happens"}
+{"id": "989baacd-3047-4cd0-b1a0-bff2729b03e6", "sentence": "1"}
+{"id": "192b82e8-3211-4133-af0c-04129cabdcda", "sentence": "Waist Height full toss: a"}
+{"id": "63514107-3520-4153-91bd-dd9d24d29f60", "sentence": "A full toss above the striker's waist standing upright at the popping crease is a No-ball"}
+{"id": "839e3a27-dd1b-4d91-894d-c13d7ba19bd9", "sentence": "If the batter gets bowled, it will be a bowled out(this is a deviation from ICC law)"}
+{"id": "36a0ff8a-e077-4375-bcde-a953cb6f9595", "sentence": "2"}
+{"id": "84f4d0f4-8996-4b3f-885c-bca341cb2f7f", "sentence": "Shoulder Height Bouncer: a"}
+{"id": "d9d8af61-5167-41a2-9599-2e03c8de9c10", "sentence": "After bouncing, a ball is above the striker's shoulder, despite the ball touching the bat i"}
+{"id": "b3543e39-b591-4de1-b8d9-600e1517893f", "sentence": "The first occurrence is a warning"}
+{"id": "28342889-9af1-432c-9799-e59e0ab7e5d5", "sentence": "ii"}
+{"id": "04927303-c375-4c2f-bea0-7bc789f2f1ec", "sentence": "No-ball when a second occurrence happens in the same over"}
+{"id": "877c044e-003a-4c62-a28f-bdc99a9da01b", "sentence": "iii"}
+{"id": "d06b8316-2bfe-4fa1-9c29-0fe670e0368e", "sentence": "Any further occurrences in the over"}
+{"id": "95589f79-990e-4967-94d1-54f08191e116", "sentence": "3"}
+{"id": "5aa5b9ed-ee9f-4684-b2ce-b09184c2afb3", "sentence": "Above Head Bouncer: a"}
+{"id": "ff1c82e3-0aab-46f7-9e7a-d618e32ae4e9", "sentence": "If a delivery bounces and then passes above the head of a batter standing upright at the crease, it's automatically a Wide"}
+{"id": "cbf63473-da24-45a0-bf10-9fc204330b0a", "sentence": "It is also considered a first warning if happening first time in the over and a No ball if it happens more than once"}
+{"id": "cf0a47e4-dadf-44bc-baa8-0ab28af5d8e8", "sentence": "b"}
+{"id": "549779d9-141c-456b-b0bc-ab53111566bf", "sentence": "When a batter advances from the crease, the umpire judges where the ball would have passed at the batter's original upright position at the crease"}
+{"id": "81f52f41-7e13-46fb-99bc-ef3092af1632", "sentence": "Page 25 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 21.5.5 No-Ball due to Fielding Restrictions 1"}
+{"id": "e7a2ff32-dff3-4959-894d-11faf19676c1", "sentence": "When the fielding restrictions rules are violated, umpires on either end can call a No-Ball"}
+{"id": "a8e0069f-9779-4ec5-96a5-4d9424e312e5", "sentence": "21.5.6 Throwing For a delivery to be fair in respect of the arm the ball must not be thrown"}
+{"id": "df899cf5-bb7f-4588-aa7e-39feee15e2b6", "sentence": "A ball is considered thrown when the bowler's elbow cannot fully straighten after their arm reaches shoulder height in the delivery swing"}
+{"id": "db509402-1e10-4633-8d78-02c9f20f1516", "sentence": "Wrist movement (flexing, rotating) is allowed"}
+{"id": "18de61c6-a09c-4b65-8ac2-38af58cb1471", "sentence": "In these situations the following applies in the innings that is played"}
+{"id": "f9d5a54b-e098-4739-acf4-b461d521d1fe", "sentence": "1"}
+{"id": "24a889ae-140d-43ba-9b53-1e4b3bc3f71c", "sentence": "First Throw a"}
+{"id": "7479af8f-f0e9-4c53-a108-e3b361335538", "sentence": "Umpire cautions the bowler"}
+{"id": "2b12d772-db95-45e8-95d2-1939b509cdd7", "sentence": "b"}
+{"id": "797553b7-e34c-49ca-a43f-c8bf644dcd1b", "sentence": "Umpire informs the fielding captain, and both batters that this is the first warning"}
+{"id": "608f8f57-01e2-4113-b375-d955676f88a8", "sentence": "2"}
+{"id": "629d8117-ef81-45f4-aab2-871b3a4e3a02", "sentence": "Second Throw a"}
+{"id": "5d248490-75c6-4d38-82bc-61704b8532ac", "sentence": "Repeat the warning call and caution the bowler that this is the final warning"}
+{"id": "d458b170-202b-494b-816e-0c54570fc3d5", "sentence": "3"}
+{"id": "0db8c10f-0ad8-4f5b-92b0-6502de977686", "sentence": "Third Throw a"}
+{"id": "107f045e-3d42-42e6-8708-03c9da81673a", "sentence": "'No-ball' is called"}
+{"id": "fec1905f-6c35-4972-afc5-482d22062393", "sentence": "Either umpire can call a No-ball"}
+{"id": "0c0b3e02-377f-47bc-bd02-02329a8dcfe3", "sentence": "b"}
+{"id": "c4fb1145-d963-4c19-b198-49ad6877df6c", "sentence": "Umpire directs the fielding captain to take the bowler off"}
+{"id": "ac0ee138-d3ea-4a52-9066-57db9d20346d", "sentence": "The bowler can't bowl again in that innings"}
+{"id": "1ab59015-ef70-4cef-80a9-9ded526c3af3", "sentence": "c"}
+{"id": "172c44a8-5270-41b4-a9e3-a079a5361e52", "sentence": "Another bowler completes the over"}
+{"id": "16384d80-7b98-4066-8ea4-4d462e17704c", "sentence": "d"}
+{"id": "7656aa19-b4a3-4278-9ae9-067b641335d3", "sentence": "Inform both batters and the batting captain"}
+{"id": "71a17503-4f21-4de7-ac7a-eb876b7dbadd", "sentence": "e"}
+{"id": "2a3dccfc-e5a7-47b6-b645-58768d5f3c5e", "sentence": "The bowler thus suspended shall not bowl again in that innings"}
+{"id": "dcd26bc1-5822-4234-818d-d25905c5bea5", "sentence": "f"}
+{"id": "f07cc0dd-fe6b-4761-b637-4bd38a2a78a4", "sentence": "Report the incident to the ACL after the match"}
+{"id": "03123675-07fd-435b-973e-ef47ca47398f", "sentence": "21.5.7 Additional No-Ball situations 1"}
+{"id": "4d3467fc-01f6-4108-8448-7eb1bfa202ab", "sentence": "Bowler Hits Wicket: No-ball if the bowler breaks the wicket at their end during delivery"}
+{"id": "d59fd345-7f10-4299-8e1d-ee87bd2d5f05", "sentence": "2"}
+{"id": "ced9916a-5cdc-4a49-9191-9aa08b6bd31b", "sentence": "Ball Bounces bounces more than once: a"}
+{"id": "a4402a2a-ebf4-4f81-bb41-bc4c8af9e376", "sentence": "T20 Only - No-ball if the ball bounces more than once or rolls along the ground before reaching the popping crease"}
+{"id": "9e1caf51-ad84-410f-8e4f-7a1d8a90d93e", "sentence": "b"}
+{"id": "623b6462-0a66-46d9-85d3-9927563a2c68", "sentence": "F15 Only - Dead-ball if the ball bounces more than once or rolls along the ground before reaching the popping crease"}
+{"id": "bff6f63e-5cd9-4a26-95f7-e4ddcf1d00cd", "sentence": "Page 26 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 3"}
+{"id": "a5a3d1db-b94c-424f-9a40-cdf55d8c8608", "sentence": "Ball Pitches Off the pitch area a"}
+{"id": "a05bc19b-0364-4f2a-9903-46ec30756f09", "sentence": "T20 Only - No-ball if the ball pitches completely off the pitch or on the edge of turf or mat before reaching the striker's wicket"}
+{"id": "db266b12-cfa0-4407-9d7e-5da1562c55c5", "sentence": "4"}
+{"id": "7a4880c0-b9d8-4dab-9f77-531ccc80596d", "sentence": "Wicketkeeper Movement: No-ball if the wicketkeeper (who was standing back) moves forward before the ball reaches the striker"}
+{"id": "d8af2dfc-2648-40c2-aeba-d4c1636d3c64", "sentence": "21.6 LBW & Leg Byes In ACL matches, there is no provision for leg before wicket (LBW) dismissals"}
+{"id": "10015f73-30ec-488b-8590-21c1b70b6dd3", "sentence": "However, if a batter unintentionally deflects the ball with their body, runs for leg byes are permitted"}
+{"id": "603f599b-c1a4-4820-b5f9-f17d615022c6", "sentence": "There is no requirement for the batter to offer a stroke"}
+{"id": "cf46d4ab-8887-40fb-be01-c6f97443c58f", "sentence": "As long as the batter refrains from deliberately padding or blocking the ball with their body, they can take leg byes"}
+{"id": "6b0a0e91-961d-46b6-b610-7d6657218178", "sentence": "For instance, if a batter attempts to evade a bouncer and the ball makes contact with any part of their body, it will be considered a valid run"}
+{"id": "b623f0f6-0149-44a1-935f-fa186cbefba5", "sentence": "21.7 Non-striker leaving ground early (Mankading) Non-striker leaving ground early is a situation where a bowler runs out the non-striker before the ball is bowled"}
+{"id": "09a14301-2f0d-4833-b35d-1df92be46d9e", "sentence": "This is allowed only after a legitimate appeal by the bowler"}
+{"id": "03b891d3-fe44-48ed-bb32-125cce8b87f6", "sentence": "The umpire first warns the non-striker and the captain of the batting team as the first and final team warning"}
+{"id": "cc036b7f-7ceb-4d79-a845-cf8c4c528819", "sentence": "Importantly, the bowler must not have completed their bowling action before attempting the run-out"}
+{"id": "d9e8752d-d9b2-4123-9289-1f542b162e0b", "sentence": "21.8 Run out - Wickets Down or Moved Regular ICC run out rules apply"}
+{"id": "c7d5fb66-93ff-455e-a01c-58f542166199", "sentence": "When executing a run out, the stumps should remain in their usual position"}
+{"id": "f3599072-fbe8-4b53-86ff-e1d871556ade", "sentence": "If spring-based stumps are knocked over or the base is moved during the play, the stumps must be raised back to their original upright position and the run out attempt repeated"}
+{"id": "9fa80c06-5569-419f-a2bb-e0ed65d49532", "sentence": "Alternatively, the entire set of stumps, along with the ball, can be hand-carried during the run out attempt"}
+{"id": "23dd4900-d927-47dc-ac50-f595ecd7d1f6", "sentence": "21.9 Recalling a batter After an umpire declares a batter out, they have the authority to reverse their decision before the batter leaves the field, or the fielding team's captain can request the batter's return by notifying the umpire"}
+{"id": "7dd5db07-5ff5-47cc-bdef-fb1cfecec741", "sentence": "Page 27 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 21.10 Fair & Unfair Play The neutral umpire(s) is/are the sole judge(s) of fair and unfair play"}
+{"id": "06ef7106-7cde-4b11-a76f-776cc51d7cb2", "sentence": "The umpire(s) may intervene at any time, and it is the responsibility of the captain(s) to act where required"}
+{"id": "1379290f-9340-45aa-9023-34a8ad1eb3a4", "sentence": "Umpires must intervene for: \u25cf Deliberate wasting of time by either team"}
+{"id": "41201719-e3d0-4622-ac8e-984bea1b785b", "sentence": "\u25cf Damaging the pitch by either team"}
+{"id": "459818e2-00e2-4b5b-8693-0aa566d7f5e4", "sentence": "\u25cf Dangerous or unfair bowling by either team"}
+{"id": "6f68f2ab-ea0c-4aad-9382-9bec87c09581", "sentence": "\u25cf Tampering with the ball by either team"}
+{"id": "d9170cb7-6c54-4d16-97b6-4f8ffb95aa49", "sentence": "\u25cf Any other action that the umpire(s) may consider to be unfair"}
+{"id": "34096bdd-e5f3-4cae-a1ea-bb1ca7bccd43", "sentence": "Note: Umpire\u2019s call is final, and teams can lodge complaints if they think otherwise"}
+{"id": "4aebcb41-62e4-4a17-821d-feafcdefd92b", "sentence": "22 Boundaries and Catches TOUCHING FENCE: Any catch taken touching the fence where the runs are declared (1D, 2D, 4D) by either direct hit to the fence or the ball going over the fence, will be considered valid"}
+{"id": "899e6069-1ae0-4bdf-95cb-8febe8c53def", "sentence": "On the other hand, any part of the fence where the regular boundary is, leaning on the fence and taking catches is NOT allowed"}
+{"id": "1080548e-6907-4ea0-8ea9-f7595e2d90f7", "sentence": "A regular boundary is defined where a batsman hits the ball along the ground and is awarded 4 runs or awarded 6 runs where the ball directly hits the fence or goes over the fence"}
+{"id": "ae0a4b43-36e2-4572-93cc-39aa95aaaf5b", "sentence": "Any catch taken as a \"re- bound\" from a natural element (like a tree, fence, or a bench) will not be considered valid but a batsman can still be \"run out\" for any obstructed shot"}
+{"id": "3bb3ea08-6147-4ff6-bfd4-3a3449a72839", "sentence": "BOUNDARIES & CATCHES: In case of a potential or real dispute regarding a hit for 4/6 runs and /or a catch at the boundary, fielders are advised to stay put and help the umpire make the decision by holding their ground"}
+{"id": "7e61642d-4e69-42b5-9883-82c15f13989a", "sentence": "Benefit of doubt shall always go to the batsman"}
+{"id": "b4b36358-ce68-4581-b604-20ac4753e354", "sentence": "23 Substitute players A team can have a maximum of two substitute players if approved by the umpires"}
+{"id": "bfafac82-fe9a-4b4a-9e76-bf970a87ae3b", "sentence": "An approval from the opposition captain is NOT required"}
+{"id": "f737b132-516c-44a1-af59-947e804fff8b", "sentence": "Match played as a substitute will not be counted towards the \u201cminimum matches\u201d requirement (to qualify for the play offs), i.e., this will not be counted as a match played"}
+{"id": "e12c5cdc-91a5-404a-ac26-83b13b0c8363", "sentence": "A substitute player can only field"}
+{"id": "f72356c3-6c21-465a-856a-befdfb7db59c", "sentence": "He can neither bowl nor bat or be allowed to act as a captain"}
+{"id": "02213ffc-832a-495f-a9dd-9461d157216d", "sentence": "He can be a wicket keeper"}
+{"id": "a3638214-67a0-4a4a-bcc7-3ed8bb5466e3", "sentence": "A substitute player can join the team at any time during the match"}
+{"id": "1e8241c1-8d5f-455d-985c-14047cd672ce", "sentence": "A substitute player MUST be from the same team roster and MUST be listed on the ACL website (Teams page)"}
+{"id": "663cc1c7-3a43-41de-8243-4ceeb99c17c6", "sentence": "In case of play off matches, the 'minimum matches' rule will be applied to the substitute player as well"}
+{"id": "3da38547-d2d1-4ace-8b04-91408b492341", "sentence": "A player returning to the field after a break (out of the field) for the bowling team, can bowl only after he/she is on the field for one full over in that match"}
+{"id": "e811889c-aeca-4b37-b4fc-c0b6e2b967d3", "sentence": "Refer to Section 14 Toss for rules on players joining late and substitutes"}
+{"id": "10c4d2f8-cc2b-4e1e-aea5-70c63734892d", "sentence": "Page 28 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 A substitute player is only allowed to field when a player in the match needs a temporary break"}
+{"id": "9fe4f29a-019f-4bc4-aa16-13429aaaea86", "sentence": "Players in playing 11 (or 9) are expected to be near the ground while on a break"}
+{"id": "6d20abd9-106d-4324-8809-9f0034773857", "sentence": "A typical break may include the use of a restroom, on-field injury, physical/medical condition, or an emergency"}
+{"id": "efab7bb5-e6c8-46d5-8a92-1921a1fbcb1b", "sentence": "At any point, a player is NOT allowed to use a substitute to play in another match in other leagues at the same time"}
+{"id": "06f4940b-31b5-4eb6-81ad-9844d11098e5", "sentence": "If noticed by umpires or informed by opponents, umpires should not allow the player or a substitute for that player to participate in the ongoing ACL match anymore"}
+{"id": "d23d4dd2-c139-44b9-92d1-cd8d4b36d752", "sentence": "Any violation would result in disciplinary action"}
+{"id": "8c30220f-3705-4a74-8eb4-5364fcc00b2e", "sentence": "24 Retiring A batsman may retire at any time during his innings"}
+{"id": "72c7e952-01e4-473d-a86f-ab879209b59c", "sentence": "The umpires reserve the right to allow the batsman to retire (Retired Hurt)"}
+{"id": "56366a01-8ffa-4320-b3e5-57b8870e96ec", "sentence": "RETIRED HURT: If a batsman retires due to illness, or on-field injury or any other unavoidable cause while playing, he/she is entitled to resume his innings"}
+{"id": "a6efbca8-8694-4a6a-b6c4-468953124a85", "sentence": "If for any reason he/she does not resume his batting, his innings is to be recorded as \u201cRetired Hurt / Retired - Not Out\u201f"}
+{"id": "00874ab6-901d-4f74-88b2-7c2a83f9e88c", "sentence": "A retired hurt batsman can only resume his innings, at the fall of a wicket or the retirement of another batsman"}
+{"id": "e83f4d3a-0c44-4d5d-96e5-84eeff623076", "sentence": "RETIRED OUT: If a batsman retires for any reason other than above reasons, he/she may resume his batting only with the consent from umpires"}
+{"id": "e4854f5b-838a-4470-b46d-735bb980f716", "sentence": "If for any reason he/she does not resume his batting, his innings is to be recorded as Retired Out"}
+{"id": "884a0bda-6112-452d-8abe-5dff07923c4c", "sentence": "If a batsman retires for convenience, the batsman cannot resume his innings and will be declared as \u201cRetired OUT\u201d"}
+{"id": "a32b4052-b05d-44a7-9fc5-44490ef998d4", "sentence": "25 Runner / By-Runner No runner or by-runner allowed in any context of the match"}
+{"id": "8b3b3607-4b43-4e5e-ba4f-ade75ad030a5", "sentence": "26 Fair and Unfair play The neutral umpire(s) is/are the sole judge(s) of fair and unfair play"}
+{"id": "16ab6067-216b-4790-ae7f-06660c3b729d", "sentence": "The umpire(s) may intervene at any time, and it is the responsibility of the captain(s) to act where required"}
+{"id": "21cc5350-a2e6-4a81-a46d-39031023507f", "sentence": "Umpires must intervene for: Deliberate wasting of time by either team"}
+{"id": "b34063de-62b1-4221-a8a0-477a9b49ffe5", "sentence": "Damaging the pitch by either team"}
+{"id": "f6167b8d-0963-4596-9a3b-24fecfaa7aaf", "sentence": "Dangerous or unfair bowling by either team"}
+{"id": "65f04bb0-8a38-498f-b959-2e1fbf81e1d7", "sentence": "Tampering with the ball by either team"}
+{"id": "9ca4cdab-6715-4791-aa86-5b4bb220a78f", "sentence": "Any other action that the umpire(s) may consider to be unfair"}
+{"id": "3e27fdb8-be93-4003-830d-baa81a2c268b", "sentence": "Note: Umpire\u2019s call is final, and teams can lodge complaints if they think otherwise"}
+{"id": "023506f0-7958-4ce3-a9a1-4aee56aeeb94", "sentence": "Page 29 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 27 Misconduct Warning The neutral umpires are empowered to oversee the behavior of the teams during the match"}
+{"id": "219f1f74-a464-48d7-945b-5381fa9ae4ae", "sentence": "In case of dissent shown by any player during the match such as using abusive language, fighting on the field, too many appeals to the umpires, vehemently disagreeing with the umpire\u2019s decision, the umpires reserve the right to call the captain of the team involved in such an act and warn the player involved"}
+{"id": "94c48fab-7f66-49ad-bca5-a2168c7863e2", "sentence": "If the umpire gives 2 warnings to a player and it happens the 3rd time the player would be sent out of the match and he/she cannot be replaced by a substitute nor, can he/she bat if he/she has not done so already"}
+{"id": "cb2d907d-279c-4569-8ea5-31c4323ac1ea", "sentence": "In case of the team being a batting team and if the batsman has already finished his batting and if such a scenario has been reported by the umpire, the player will be banned from playing the next match"}
+{"id": "8e93592c-de2b-4a56-b305-ad02bceaf5c1", "sentence": "If it is a batting team and if it is during a playoff match, the team will be penalized 1 over of play (refer to ACL Code of Conduct)"}
+{"id": "de225497-2efb-4df2-bd27-e2e50c9447d0", "sentence": "NO-SMOKING: Smoking or consumption of alcohol on the field or on the premises including the parking lots and the area surrounding the fields is prohibited and all the park rules apply while playing"}
+{"id": "4593f044-b400-4467-befb-b4a2f43c410e", "sentence": "Violating team and player is subject to severe penalty and/or match ban (refer to ACL Code of Conduct) 28 Against the Spirit of the Match Following actions are against the spirit of the match: Dispute an umpire\u2019s decision by word, action, or gesture"}
+{"id": "b1f5c3ec-cbf8-4826-8f9c-6738ce0288cb", "sentence": "Direct abusive language towards an opponent or umpire"}
+{"id": "6f5e4018-aa46-407a-9689-93300bff9669", "sentence": "Indulge in cheating or any sharp practice, for instance to appeal knowing that the batsman is not out"}
+{"id": "3cbe7fdd-6a92-48c7-bbbe-5eeaccd9fd2c", "sentence": "Advance towards an umpire in an aggressive manner when appealing to seek to distract an opponent either verbally or by harassment with persist There is no place for any act of violence on the field of play"}
+{"id": "83a1f7fd-afc9-49f8-bc0a-3ffe56c38e9d", "sentence": "The ACL reserves the right to decide the penalty against the team(s) and/or player(s) and/or umpire(s)"}
+{"id": "e68696de-25b7-42d2-99f8-2c9e241ff450", "sentence": "29 After the Match Trash Cleanup: Each team must fully clean up all water bottles and their trash near their dugout"}
+{"id": "07441f36-a8a7-4a55-9029-6541026e0017", "sentence": "Ground, dugouts and seating area, must be in similar condition in which they were before the match"}
+{"id": "1608861e-7e71-4791-aedd-b99a6f1447c2", "sentence": "ACL will take disciplinary action in the event any Team fails to follow this"}
+{"id": "9762eb6e-b729-4df8-848e-34395759dc35", "sentence": "Fixtures at Ground: Any equipment at ground disturbed during match should be put back in place"}
+{"id": "dfb6c98b-55cd-4c9f-9d9a-a5a2d2921cbe", "sentence": "Teams are not allowed to remove bases in baseball grounds"}
+{"id": "60d32861-3710-4ffe-814e-064f97548d53", "sentence": "Page 30 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 30 Scoresheets & Match Reports ACL Scoring app to be used for all scoring purposes, if any manual scoring then Scoresheets for all matches must include the Team names, Toss detail, complete batting, bowling, and fielding records"}
+{"id": "6f849d8b-0111-4a08-b144-56c1f683d156", "sentence": "Teams must put names of fielders involved in a dismissal on the score sheets"}
+{"id": "84b969f9-b40e-4d2d-aaf1-c0670bae7619", "sentence": "Umpiring team: Umpires MUST sign both completed scoresheets and ensure that both captains also sign them if manual scoring is involved"}
+{"id": "a1a68183-6abb-4e4c-978b-6129d1e8f13e", "sentence": "It is the sole responsibility of the umpires to upload the scoresheets on the ACL website no later than the Monday after the match when manual scoring is involved"}
+{"id": "55517371-1380-4b68-b014-cb9401082c13", "sentence": "If needed Match report should also be included with any delays, player misconduct, and incidents during the match and should be submitted by umpires along with scoresheets"}
+{"id": "e340f916-e333-411c-abff-16e95915a45d", "sentence": "Captains: Both captains are responsible for entering complete details of their innings including all player names in the batting section and also bowling and fielding details of opponents on Score Sheets and the same information must be submitted on ACL website no later than the Monday after the match"}
+{"id": "e100fb44-3c09-4f3b-a19b-0ca5ecaa1310", "sentence": "Any changes from recorded score sheets must be approved by ACL"}
+{"id": "7cf6586c-3125-4834-9c3c-5b7546f7d7c7", "sentence": "Otherwise, teams will be subjected to penalty as described in the Code of Conduct"}
+{"id": "b3f880e9-8cb2-4b31-a375-17012736b5f2", "sentence": "If a match is played under protest, this should be mentioned on the scoresheet"}
+{"id": "00ae5a1e-b396-47cc-b8f4-94d6d4617af9", "sentence": "31 Protests & Complaints All protests and complaints must be emailed to the committee no later than Monday following the match day failing which the Disciplinary Committee (DC) will make the final call on accepting the complaint"}
+{"id": "02251e7d-5485-4693-84c7-a3eff32332d5", "sentence": "Copies of the complaint letter should also be sent to the officiating umpires and team involved in question in due course"}
+{"id": "e653ab84-c203-47f3-9904-f33bef4086b0", "sentence": "No protests or complaints will be valid if a match is played without an approved ACL umpire"}
+{"id": "6fea6aa6-3806-4f1b-b224-8afa30784e28", "sentence": "The decision of the committee - DC will be final"}
+{"id": "9d3e6aca-39d5-4e77-a787-ba294388a641", "sentence": "No protests or complaints will be considered unless proper procedures are followed"}
+{"id": "4cb75662-61ad-4bde-a6e6-69f746fd6561", "sentence": "The ACL Code of Conduct document has all the guidelines and details on violations and penalties"}
+{"id": "8dceb3af-c55e-4f46-8b55-b6c3f7379d3e", "sentence": "32 Awards and Trophies Both Winners and Runners of each Tournament will receive ACL Trophies"}
+{"id": "46cfeb6f-3cbc-49dd-88f1-4db9d85e77e5", "sentence": "WINNERS: A Team Champions Trophy and each registered player (up to 15) will receive an individual Champion trophy"}
+{"id": "11db36b4-6bee-4489-bbee-20cec8d0bb09", "sentence": "RUNNERS: A Team Runners Trophy and each registered player (up to 15) will receive an individual Runners trophy"}
+{"id": "75bd7236-86ca-4e33-be4a-54e052606559", "sentence": "Playoff matches: Following awards will be presented - Player of the Match Quarter Finals Page 31 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 Player of the Semi final qualifiers Player of the Match Semi Finals Player of the Match Finals Best Allrounder Best Batter Best Bowler Best Wicket Keeper Round Robin matches: Following Best players awards will be presented - Best Allrounder Best Batter Best Bowler Best Wicket Keeper Note: Awards are subject to change and this is under sole discretion of ACL"}
+{"id": "2c956c6a-76e0-40eb-a752-06215821e818", "sentence": "33 Disclaimer The Rules and regulations can be changed by ACL at any time"}
+{"id": "ed39cee6-6a40-4320-ae30-64b64bfa3051", "sentence": "However, the changes to the rules will be announced to the teams via email/website updates"}
+{"id": "b1c9febf-3ed9-44e4-aab9-ebbae97318e7", "sentence": "ACL reserves right to modify, add or delete any of the rules and rules addendum at its own discretion"}
+{"id": "bf19d102-c765-41e9-a8d9-417175e52f8c", "sentence": "34 Appendix A Page 32 of 32 Atlanta Cricket League Rules for T20 and F15 Version 3.0 - Revised March, 2024 34.1 Crease markings 34.2 Umpire preparation resources No Ball rules - NO BALL Cricket Rules 2023 | Back Foot No ball Rule Explained Wide rules - Cricket Wide Ball Rule Number 22 Explained - Animation"}
