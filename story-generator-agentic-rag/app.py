@@ -6,11 +6,14 @@ from pathlib import Path
 
 import streamlit as st
 from dotenv import load_dotenv
+from streamlit_extras.colored_header import colored_header
+from streamlit_extras.stylable_container import stylable_container
+from streamlit_extras.let_it_rain import rain
 
 from src.llm import LLM
 from src.store import VectorStore
 from src.chunks import chunk_text_chars, chunk_code_lines
-from src.ingest import load_pdf, load_text, fetch_confluence_simple, clone_repo
+from src.ingest import load_pdf, load_text, fetch_confluence_simple, clone_repo, fetch_confluence_bulk
 from src.agent import AgenticRAG, StoryDraft
 from src.jira_api import JiraClient
 
@@ -39,6 +42,7 @@ st.title("🧠 Agentic RAG Jira Generator (Vertex AI + Chroma + Jira)")
 tab1, tab2 = st.tabs(["📥 Batch Ingestion", "📝 Story Generator"])
 
 # ---------- TAB 1: Ingestion ----------
+
 with tab1:
     st.header("Batch Ingestion")
 
@@ -75,11 +79,13 @@ with tab1:
                         st.exception(e)
                 st.info(f"Total chunks inserted: {total}")
 
-    with st.expander("Ingest Confluence page (simple)"):
+    with st.expander("Ingest Confluence page(s)"):
         base = st.text_input("Confluence REST base URL (e.g. https://org.atlassian.net/wiki/rest/api/content)")
-        pid  = st.text_input("Page ID")
         user = st.text_input("Username (email)")
         token= st.text_input("API token", type="password")
+
+        st.subheader("Single Page Ingest")
+        pid  = st.text_input("Page ID (single)")
         if st.button("Fetch & ingest page"):
             try:
                 res = fetch_confluence_simple(base, pid, user, token)
@@ -89,6 +95,24 @@ with tab1:
                 st.success(f"Inserted {n} chunks from Confluence page {res['meta'].get('title')}")
             except Exception as e:
                 st.exception(e)
+
+        st.subheader("Bulk Ingest (all child pages)")
+        parent_pid = st.text_input("Parent Page ID (for bulk ingest)")
+        pattern = st.text_input("Page title filter (e.g. *, Design*, API*)", value="*")
+        if st.button("Fetch & ingest all child pages"):
+            try:
+                pages = fetch_confluence_bulk(base, parent_pid, user, token, pattern=pattern)
+                total = 0
+                for page in pages:
+                    pid = page["meta"]["id"]
+                    chunks = chunk_text_chars(page["text"])
+                    metas = [{"source": f"confluence:{pid}", "title": page["meta"].get("title")} for _ in chunks]
+                    total += store.upsert("knowledge_docs", f"confluence:{pid}", chunks, metas)
+                    st.success(f"Ingested {len(chunks)} chunks from {page['meta'].get('title')}")
+                st.info(f"Total chunks inserted from bulk Confluence ingest: {total}")
+            except Exception as e:
+                st.exception(e)
+
 
     with st.expander("Clone GitHub repo and ingest (public)"):
         repo_url = st.text_input("GitHub repo URL (https://github.com/owner/repo)")
@@ -128,25 +152,56 @@ with tab1:
             st.write("Docs:", [d["text"][:300] for d in docs])
             st.write("Code:", [d["text"][:300] for d in code])
 
-# ---------- TAB 2: Agentic RAG ----------
+# ---------- TAB 2: Agentic RAG with Jaw-Dropping UI ----------
 with tab2:
-    st.header("Generate Jira Story with Agentic RAG & Feedback")
+    # Hero banner
+    st.markdown(
+        """
+        <div style="text-align:center; padding: 2rem; background: linear-gradient(90deg, #4f46e5, #06b6d4); 
+        border-radius: 20px; color: white; box-shadow: 0px 4px 20px rgba(0,0,0,0.2);">
+            <h1 style="font-size:2.5rem; margin-bottom:0.5rem;">🚀 AI-Powered Jira Story Generator</h1>
+            <p style="font-size:1.2rem;">Generate developer-ready Jira stories with context-aware AI + RAG</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
-    one_liner = st.text_area("One-liner request", height=100)
-    include_code = st.checkbox("Search code collection", value=False)
-    code_lang = st.selectbox("Code language for examples (optional)", ["None","Python","Java","Go","JavaScript"])
-    temperature = st.slider("Creativity (temperature)", 0.0, 1.0, 0.15, 0.05)
+    st.write("")
+    colored_header("⚡ Input Your Request", description="Provide a feature, bug, or task and let AI generate the Jira story.", color_name="violet-70")
 
-    if st.button("Generate Draft"):
-        if not one_liner.strip():
-            st.error("Enter a one-liner first.")
-        else:
+    with stylable_container(
+        key="story_input_box",
+        css_styles="""
+            {
+                background: white;
+                padding: 1.5rem;
+                border-radius: 16px;
+                box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+            }
+        """,
+    ):
+        one_liner = st.text_area(
+            "✍️ Describe your feature/bug/task",
+            placeholder="E.g., Create login with OAuth2, enhance search with filters, fix checkout bug...",
+            height=120,
+        )
+
+        col1, col2, col3 = st.columns([1,1,2])
+        with col1:
+            priority = st.selectbox("🔥 Priority", ["Low", "Medium", "High", "Critical"])
+        with col2:
+            story_type = st.selectbox("📌 Type", ["Story", "Bug", "Task", "Epic"])
+        with col3:
+            generate_btn = st.button("✨ Generate Jira Story", use_container_width=True)
+
+    if generate_btn and one_liner.strip():
+        with st.spinner("🤖 Generating with AI..."):
             try:
                 result = agent.generate_draft(
                     one_liner=one_liner,
-                    include_code=include_code,
-                    temperature=temperature,
-                    code_lang=None if code_lang=="None" else code_lang
+                    include_code=False,
+                    temperature=0.2,
+                    code_lang=None,
                 )
                 st.session_state["draft"] = StoryDraft(**result["draft"])
                 st.session_state["context"] = result["context"]
@@ -154,54 +209,56 @@ with tab2:
             except Exception as e:
                 st.exception(e)
 
-    if "context" in st.session_state:
-        with st.expander("Retrieved context"):
-            ctx = st.session_state["context"]
-            st.write("Docs:")
-            for i, d in enumerate(ctx.get("docs", []), 1):
-                st.write(d["meta"])
-                st.write(d["text"][:800])
-            st.write("Code:")
-            for i, c in enumerate(ctx.get("code", []), 1):
-                st.write(c["meta"])
-                st.code(c["text"][:800])
-
     if "draft" in st.session_state:
-        st.subheader("Draft Jira Story (JSON)")
-        st.json(st.session_state["draft"].model_dump())
+        colored_header("📑 Generated Jira Story", description="Refined, structured, and ready to push to Jira.", color_name="blue-70")
 
-        st.markdown("### 🔁 Reviewer feedback")
-        feedback = st.text_area("Write instructions to modify the draft (e.g., make AC testable, split subtasks, add security considerations).", height=140)
+        with stylable_container(
+            key="story_card",
+            css_styles="""
+                {
+                    background: #f9fafb;
+                    padding: 2rem;
+                    border-radius: 20px;
+                    box-shadow: 0px 6px 25px rgba(0,0,0,0.15);
+                    transition: transform 0.2s;
+                }
+                div:hover {
+                    transform: scale(1.01);
+                }
+            """,
+        ):
+            draft = st.session_state["draft"]
+            st.markdown(f"### 📝 {draft.title}")
+            st.markdown(draft.description)
+            st.markdown(f"**Priority:** {priority}  |  **Type:** {story_type}")
 
-        colA, colB, colC = st.columns(3)
-        with colA:
-            if st.button("Apply feedback (regenerate)"):
-                try:
-                    new_draft = agent.apply_feedback(st.session_state["draft"].model_dump(), feedback)
-                    st.session_state["draft"] = StoryDraft(**new_draft)
-                    st.success("Feedback applied. Draft updated.")
-                except Exception as e:
-                    st.exception(e)
-        with colB:
-            if st.button("Tighten for Jira (validation pass)"):
-                try:
-                    valid = agent.validate_and_fix(st.session_state["draft"].model_dump())
-                    st.session_state["draft"] = StoryDraft(**valid)
-                    st.success("Draft validated & tightened for Jira.")
-                except Exception as e:
-                    st.exception(e)
-        with colC:
-            create_sub = st.checkbox("Create subtasks too", value=True)
-            if st.button("✅ Create Jira issue now"):
+            st.write("")
+            feedback_col1, feedback_col2 = st.columns(2)
+            with feedback_col1:
+                if st.button("👍 Approve", use_container_width=True):
+                    st.success("✅ Story approved and ready to push to Jira.")
+                    rain(emoji="🎉", font_size=40, falling_speed=5, animation_length=2)
+
+            with feedback_col2:
+                feedback = st.text_area("✏️ Request Edit", height=120, placeholder="E.g., Add acceptance criteria for edge cases...")
+                if st.button("🔄 Apply Feedback", use_container_width=True):
+                    try:
+                        new_draft = agent.apply_feedback(draft.model_dump(), feedback)
+                        st.session_state["draft"] = StoryDraft(**new_draft)
+                        st.success("Feedback applied. Draft updated.")
+                    except Exception as e:
+                        st.exception(e)
+
+            if st.button("✅ Create Jira Issue"):
                 if not jira.is_configured():
                     st.error("Jira not configured. Set env vars first.")
                 else:
                     try:
-                        res = jira.create_story(st.session_state["draft"].model_dump(), create_subtasks=create_sub)
+                        res = jira.create_story(draft.model_dump(), create_subtasks=True)
                         st.success(f"Created Story: {res['story_key']}")
                         if res["subtasks"]:
                             st.info(f"Subtasks: {', '.join(res['subtasks'])}")
-                        with st.expander("Jira request payload"):
+                        with st.expander("📦 Jira request payload"):
                             st.code(json.dumps(res["payload"], indent=2))
                     except Exception as e:
                         st.exception(e)
