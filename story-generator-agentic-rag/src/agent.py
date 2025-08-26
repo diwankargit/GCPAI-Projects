@@ -27,6 +27,7 @@ class StoryDraft(BaseModel):
             raise ValueError("list item must not be empty")
         return v
 
+
 class AgenticRAG:
     def __init__(self, llm: LLM, store: VectorStore):
         self.llm = llm
@@ -47,7 +48,13 @@ class AgenticRAG:
             parts.append(f"[CODE] {c['meta']} ::\n{c['text']}")
         return "\n\n".join(parts)
 
-    def generate_draft(self, one_liner: str, include_code: bool, temperature: float = 0.15, code_lang: Optional[str] = None) -> Dict[str, Any]:
+    def generate_draft(
+        self, 
+        one_liner: str, 
+        include_code: bool, 
+        temperature: float = 0.15, 
+        code_lang: Optional[str] = None
+    ) -> Dict[str, Any]:
         ctx = self._retrieve(one_liner, include_code)
         ctx_text = self._context_to_text(ctx)
         instruction = f"""
@@ -71,12 +78,17 @@ RULES:
         draft = StoryDraft(**raw)  # validate
         return {"draft": draft.model_dump(), "context": ctx}
 
-    def apply_feedback(self, current_draft: Dict[str, Any], feedback: str, temperature: float = 0.15) -> Dict[str, Any]:
+    def apply_feedback(
+        self, 
+        current_draft: Dict[str, Any], 
+        feedback: str, 
+        temperature: float = 0.15
+    ) -> Dict[str, Any]:
         instruction = f"""
 Revise the following Jira story JSON according to the feedback. Keep the same schema and output strictly JSON.
 
 CURRENT_JSON:
-{json.dumps(current_draft, ensure_ascii=False)}
+{json.dumps(current_draft, ensure_ascii=False, indent=2)}
 
 FEEDBACK:
 {feedback}
@@ -90,7 +102,29 @@ You are a Jira story validator. Ensure the JSON has keys: title, description, ac
 - If something is missing or weak, improve it briefly.
 - Keep it concise and enterprise-ready. Output strictly JSON.
 CURRENT_JSON:
-{json.dumps(draft, ensure_ascii=False)}
+{json.dumps(draft, ensure_ascii=False, indent=2)}
         """
         out = self.llm.generate_json(system=SYSTEM_JSON_SPEC, instruction=instruction, temperature=0.1)
         return StoryDraft(**out).model_dump()
+
+    def refine_with_feedback_loop(
+        self, 
+        one_liner: str, 
+        feedbacks: List[str], 
+        include_code: bool = False, 
+        code_lang: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """
+        Full loop:
+        1. Generate initial draft
+        2. Apply feedback iteratively
+        3. Validate & return final draft
+        """
+        result = self.generate_draft(one_liner, include_code, code_lang=code_lang)
+        draft = result["draft"]
+
+        for fb in feedbacks:
+            draft = self.apply_feedback(draft, fb)
+
+        final_draft = self.validate_and_fix(draft)
+        return {"final_draft": final_draft, "context": result["context"]}

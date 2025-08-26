@@ -1,0 +1,13 @@
+# GCP / Vertex AI
+GOOGLE_CLOUD_PROJECT=your-project-id
+GOOGLE_CLOUD_LOCATION=us-central1
+GOOGLE_APPLICATION_CREDENTIALS=/path/to/service-account.json
+
+# Jira Cloud
+JIRA_BASE_URL=https://your-domain.atlassian.net
+JIRA_EMAIL=you@company.com
+JIRA_API_TOKEN=your_atlassian_api_token
+JIRA_PROJECT_KEY=PROJ
+
+# App
+CHROMA_PATH=./chroma_data
