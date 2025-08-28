@@ -152,96 +152,60 @@ with tab1:
             st.write("Docs:", [d["text"][:300] for d in docs])
             st.write("Code:", [d["text"][:300] for d in code])
 
-# ---------- TAB 2: Agentic RAG with Jaw-Dropping UI ----------
-with tab2:
-    # Hero banner
-    st.markdown(
-        """
-        <div style="text-align:center; padding: 2rem; background: linear-gradient(90deg, #4f46e5, #06b6d4); 
-        border-radius: 20px; color: white; box-shadow: 0px 4px 20px rgba(0,0,0,0.2);">
-            <h1 style="font-size:2.5rem; margin-bottom:0.5rem;">🚀 AI-Powered Jira Story Generator</h1>
-            <p style="font-size:1.2rem;">Generate developer-ready Jira stories with context-aware AI + RAG</p>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+# ---------- TAB 2: Agentic RAG----------
 
-    st.write("")
-    colored_header("⚡ Input Your Request", description="Provide a feature, bug, or task and let AI generate the Jira story.", color_name="violet-70")
+with tab1:
+    with st.tab("Jira Story Generator"):
+        st.header("AI-Powered Jira Story Generator")
 
-    with stylable_container(
-        key="story_input_box",
-        css_styles="""
-            {
-                background: white;
-                padding: 1.5rem;
-                border-radius: 16px;
-                box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
-            }
-        """,
-    ):
+        st.write("Provide a feature, bug, or task and let AI generate the Jira story.")
+
         one_liner = st.text_area(
-            "✍️ Describe your feature/bug/task",
+            "Describe your feature/bug/task",
             placeholder="E.g., Create login with OAuth2, enhance search with filters, fix checkout bug...",
             height=120,
         )
 
-        col1, col2, col3 = st.columns([1,1,2])
+        col1, col2, col3 = st.columns([1, 1, 2])
         with col1:
-            priority = st.selectbox("🔥 Priority", ["Low", "Medium", "High", "Critical"])
+            priority = st.selectbox("Priority", ["Low", "Medium", "High", "Critical"])
         with col2:
-            story_type = st.selectbox("📌 Type", ["Story", "Bug", "Task", "Epic"])
+            story_type = st.selectbox("Type", ["Story", "Bug", "Task", "Epic"])
         with col3:
-            generate_btn = st.button("✨ Generate Jira Story", use_container_width=True)
+            generate_btn = st.button("Generate Jira Story", use_container_width=True)
 
-    if generate_btn and one_liner.strip():
-        with st.spinner("🤖 Generating with AI..."):
-            try:
-                result = agent.generate_draft(
-                    one_liner=one_liner,
-                    include_code=False,
-                    temperature=0.2,
-                    code_lang=None,
-                )
-                st.session_state["draft"] = StoryDraft(**result["draft"])
-                st.session_state["context"] = result["context"]
-                st.success("Draft created. Review below.")
-            except Exception as e:
-                st.exception(e)
+        if generate_btn and one_liner.strip():
+            with st.spinner("Generating with AI..."):
+                try:
+                    result = agent.generate_draft(
+                        one_liner=one_liner,
+                        include_code=False,
+                        temperature=0.2,
+                        code_lang=None,
+                    )
+                    st.session_state["draft"] = StoryDraft(**result["draft"])
+                    st.session_state["context"] = result["context"]
+                    st.success("Draft created. Review below.")
+                except Exception as e:
+                    st.exception(e)
 
-    if "draft" in st.session_state:
-        colored_header("📑 Generated Jira Story", description="Refined, structured, and ready to push to Jira.", color_name="blue-70")
+        if "draft" in st.session_state:
+            st.subheader("Generated Jira Story")
 
-        with stylable_container(
-            key="story_card",
-            css_styles="""
-                {
-                    background: #f9fafb;
-                    padding: 2rem;
-                    border-radius: 20px;
-                    box-shadow: 0px 6px 25px rgba(0,0,0,0.15);
-                    transition: transform 0.2s;
-                }
-                div:hover {
-                    transform: scale(1.01);
-                }
-            """,
-        ):
             draft = st.session_state["draft"]
-            st.markdown(f"### 📝 {draft.title}")
+            st.markdown(f"### {draft.title}")
             st.markdown(draft.description)
             st.markdown(f"**Priority:** {priority}  |  **Type:** {story_type}")
 
             st.write("")
             feedback_col1, feedback_col2 = st.columns(2)
             with feedback_col1:
-                if st.button("👍 Approve", use_container_width=True):
-                    st.success("✅ Story approved and ready to push to Jira.")
-                    rain(emoji="🎉", font_size=40, falling_speed=5, animation_length=2)
+                if st.button("Approve", use_container_width=True):
+                    st.success("Story approved and ready to push to Jira.")
 
             with feedback_col2:
-                feedback = st.text_area("✏️ Request Edit", height=120, placeholder="E.g., Add acceptance criteria for edge cases...")
-                if st.button("🔄 Apply Feedback", use_container_width=True):
+                feedback = st.text_area("Request Edit", height=120, placeholder="E.g., Add acceptance criteria for edge cases...")
+                if st.button("Apply Feedback", use_container_width=True):
                     try:
                         new_draft = agent.apply_feedback(draft.model_dump(), feedback)
                         st.session_state["draft"] = StoryDraft(**new_draft)
@@ -249,7 +213,7 @@ with tab2:
                     except Exception as e:
                         st.exception(e)
 
-            if st.button("✅ Create Jira Issue"):
+            if st.button("Create Jira Issue"):
                 if not jira.is_configured():
                     st.error("Jira not configured. Set env vars first.")
                 else:
@@ -258,7 +222,7 @@ with tab2:
                         st.success(f"Created Story: {res['story_key']}")
                         if res["subtasks"]:
                             st.info(f"Subtasks: {', '.join(res['subtasks'])}")
-                        with st.expander("📦 Jira request payload"):
+                        with st.expander("Jira request payload"):
                             st.code(json.dumps(res["payload"], indent=2))
                     except Exception as e:
                         st.exception(e)
