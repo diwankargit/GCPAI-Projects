@@ -262,3 +262,36 @@ with tab2:
                             st.code(json.dumps(res["payload"], indent=2))
                     except Exception as e:
                         st.exception(e)
+
+
+
+
+
+# feedback_col1, feedback_col2 = st.columns(2)
+
+# with feedback_col1:
+#     if st.button("👍 Approve", use_container_width=True):
+#         st.success("✅ Story approved and ready to push to Jira.")
+#         rain(emoji="🎉", font_size=40, falling_speed=5, animation_length=2)
+
+# with feedback_col2:
+#     feedback = st.text_area("✏️ Request Edit", height=120, placeholder="E.g., Add acceptance criteria...")
+#     if st.button("🔄 Apply Feedback", use_container_width=True):
+#         try:
+#             agent = FeedbackAgent()
+#             draft = st.session_state["draft"].model_dump()
+            
+#             # 1️⃣ Decide
+#             action = agent.decide_action(draft, feedback)
+
+#             # 2️⃣ Apply
+#             new_draft, msg = agent.apply_action(action, draft, feedback)
+
+#             # Update draft if modified
+#             if action in ["edit", "regenerate"]:
+#                 st.session_state["draft"] = StoryDraft(**new_draft)
+
+#             st.success(msg)
+
+#         except Exception as e:
+#             st.exception(e)
